@@ -1,0 +1,1429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files\blas">
+      <UniqueIdentifier>{2dcd3085-8ba9-4b28-92a8-4ac97f5a3a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\block">
+      <UniqueIdentifier>{4b7ea1c5-378d-4577-a5ad-479aea751103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cblas">
+      <UniqueIdentifier>{8f6d3efa-ff5b-4037-aad9-12aa0c28e568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cdf">
+      <UniqueIdentifier>{58fd18af-3041-4aff-b670-822ad2af2c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cheb">
+      <UniqueIdentifier>{2407b7b8-ecdf-4c04-8c3f-7e05cadb281e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\combination">
+      <UniqueIdentifier>{8d54b6ea-cd0e-4dd1-a4cc-5347fc42173a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\complex">
+      <UniqueIdentifier>{08866d70-d3e5-4ee3-98a3-3ec6824ab355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\const">
+      <UniqueIdentifier>{4f620064-50e6-491c-bf2f-7d396a36d056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\deriv">
+      <UniqueIdentifier>{7bd3f83f-414e-4f5a-897b-94e582a8af71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dht">
+      <UniqueIdentifier>{70f895fb-505a-4e41-b7d0-323bfabc0977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\diff">
+      <UniqueIdentifier>{e13e40fb-a23d-459f-9963-739610664439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\eigen">
+      <UniqueIdentifier>{eb376e8f-d222-4cec-8ec3-2bd4349017f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\err">
+      <UniqueIdentifier>{c7d92ca4-9a56-4e42-b45d-cb74b8cdfe15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\fft">
+      <UniqueIdentifier>{5f823bbc-b505-4765-b444-bb50badf3022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\fit">
+      <UniqueIdentifier>{a22560b5-7e1c-4161-9939-fc202b8940e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\histogram">
+      <UniqueIdentifier>{49e73745-7917-486f-9a37-3cde450e73b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ieee-utils">
+      <UniqueIdentifier>{295c1089-8d7d-4c0f-940f-6d6d4fda5bb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\integration">
+      <UniqueIdentifier>{699c6e60-c9a8-4bc0-affe-527f4ccebffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\interpolation">
+      <UniqueIdentifier>{ce22183c-edce-4e1b-bc4d-69172f76d1c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\linalg">
+      <UniqueIdentifier>{e7440d96-4d34-46c2-acaf-8eee2d8ae269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\matrix">
+      <UniqueIdentifier>{0426a6ab-62aa-4aff-9ca7-98072f303e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\min">
+      <UniqueIdentifier>{541e4c34-9bb9-4b88-99ef-62a8882f9158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\monte">
+      <UniqueIdentifier>{073188b9-709e-4878-9350-bf1441a0dc0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\multifit">
+      <UniqueIdentifier>{823e8cdb-6f09-41c1-a4d4-d236e586530a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\multimin">
+      <UniqueIdentifier>{90c2d4f1-f9c5-4364-8d86-dfc11a38299c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\multiroots">
+      <UniqueIdentifier>{b93cf7f3-819c-413f-afb3-982e0d3ec832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ntuple">
+      <UniqueIdentifier>{59265300-11aa-43f4-afea-6b3c0cbebe72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ode-initval">
+      <UniqueIdentifier>{7cdce8db-335c-483b-8247-d68a91dfa4ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\permutation">
+      <UniqueIdentifier>{32a01b28-a430-488d-b829-a234b55f0671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\poly">
+      <UniqueIdentifier>{9a9b89c7-f5b8-4eda-91f7-24017fef4ca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\qrng">
+      <UniqueIdentifier>{21019515-590b-4280-aa85-a51a8fe2e3ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\randist">
+      <UniqueIdentifier>{94ad5955-f5d6-4efd-b436-ae1a0ff7dd7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\rng">
+      <UniqueIdentifier>{880b4f87-e29b-40da-81f2-afa529360f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\roots">
+      <UniqueIdentifier>{b3216bf0-0e98-44b8-a415-1b220fb101c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\siman">
+      <UniqueIdentifier>{3592189c-e39b-459b-be15-5bb6254c9c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sort">
+      <UniqueIdentifier>{b2423320-7236-41d7-a6b7-1c796ea77d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\specfunc">
+      <UniqueIdentifier>{109ffbf1-da77-4010-8ad0-ef207476cec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\statistics">
+      <UniqueIdentifier>{49bd7312-72b1-43a1-87fe-6213ffe2d058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sum">
+      <UniqueIdentifier>{bc47f1af-42f2-4c45-b5cd-2b13a3e32d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sys">
+      <UniqueIdentifier>{8852d4d6-4576-4379-8705-2b9634ea6bd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\test">
+      <UniqueIdentifier>{8404888d-e730-4724-b2f2-b4267de7496c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\vector">
+      <UniqueIdentifier>{8251b523-0d81-4e8f-b48d-8ec47761d9df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wavelet">
+      <UniqueIdentifier>{e7184aeb-0a6f-4083-9556-d012d793810c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Copied Headers">
+      <UniqueIdentifier>{8789ecce-099b-46d7-8d79-b11f4f75bb1e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gsl_machine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gsl_math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gsl_mode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gsl_nan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gsl_pow_int.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gsl_precision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gsl_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates_off.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\templates_on.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\blas\gsl_blas.h">
+      <Filter>Header Files\blas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\blas\gsl_blas_types.h">
+      <Filter>Header Files\blas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\block\gsl_block.h">
+      <Filter>Header Files\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\block\gsl_block_char.h">
+      <Filter>Header Files\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\block\gsl_block_complex_double.h">
+      <Filter>Header Files\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\block\gsl_block_complex_float.h">
+      <Filter>Header Files\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\block\gsl_block_complex_long_double.h">
+      <Filter>Header Files\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\block\gsl_block_double.h">
+      <Filter>Header Files\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\block\gsl_block_float.h">
+      <Filter>Header Files\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\block\gsl_block_int.h">
+      <Filter>Header Files\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\block\gsl_block_long.h">
+      <Filter>Header Files\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\block\gsl_block_long_double.h">
+      <Filter>Header Files\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\block\gsl_block_short.h">
+      <Filter>Header Files\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\block\gsl_block_uchar.h">
+      <Filter>Header Files\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\block\gsl_block_uint.h">
+      <Filter>Header Files\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\block\gsl_block_ulong.h">
+      <Filter>Header Files\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\block\gsl_block_ushort.h">
+      <Filter>Header Files\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\block\gsl_check_range.h">
+      <Filter>Header Files\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cblas\gsl_cblas.h">
+      <Filter>Header Files\cblas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cdf\gsl_cdf.h">
+      <Filter>Header Files\cdf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cheb\gsl_chebyshev.h">
+      <Filter>Header Files\cheb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\combination\gsl_combination.h">
+      <Filter>Header Files\combination</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\complex\gsl_complex.h">
+      <Filter>Header Files\complex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\complex\gsl_complex_math.h">
+      <Filter>Header Files\complex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\const\gsl_const.h">
+      <Filter>Header Files\const</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\const\gsl_const_cgs.h">
+      <Filter>Header Files\const</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\const\gsl_const_cgsm.h">
+      <Filter>Header Files\const</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\const\gsl_const_mks.h">
+      <Filter>Header Files\const</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\const\gsl_const_mksa.h">
+      <Filter>Header Files\const</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\const\gsl_const_num.h">
+      <Filter>Header Files\const</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\deriv\gsl_deriv.h">
+      <Filter>Header Files\deriv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dht\gsl_dht.h">
+      <Filter>Header Files\dht</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\diff\gsl_diff.h">
+      <Filter>Header Files\diff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\eigen\gsl_eigen.h">
+      <Filter>Header Files\eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\err\gsl_errno.h">
+      <Filter>Header Files\err</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\err\gsl_message.h">
+      <Filter>Header Files\err</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fft\gsl_dft_complex.h">
+      <Filter>Header Files\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fft\gsl_dft_complex_float.h">
+      <Filter>Header Files\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fft\gsl_fft.h">
+      <Filter>Header Files\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fft\gsl_fft_complex.h">
+      <Filter>Header Files\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fft\gsl_fft_complex_float.h">
+      <Filter>Header Files\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fft\gsl_fft_halfcomplex.h">
+      <Filter>Header Files\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fft\gsl_fft_halfcomplex_float.h">
+      <Filter>Header Files\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fft\gsl_fft_real.h">
+      <Filter>Header Files\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fft\gsl_fft_real_float.h">
+      <Filter>Header Files\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fit\gsl_fit.h">
+      <Filter>Header Files\fit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\histogram\gsl_histogram.h">
+      <Filter>Header Files\histogram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\histogram\gsl_histogram2d.h">
+      <Filter>Header Files\histogram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ieee-utils\gsl_ieee_utils.h">
+      <Filter>Header Files\ieee-utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\integration\gsl_integration.h">
+      <Filter>Header Files\integration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interpolation\gsl_interp.h">
+      <Filter>Header Files\interpolation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interpolation\gsl_spline.h">
+      <Filter>Header Files\interpolation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\linalg\gsl_linalg.h">
+      <Filter>Header Files\linalg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\matrix\gsl_matrix.h">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\matrix\gsl_matrix_char.h">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\matrix\gsl_matrix_complex_double.h">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\matrix\gsl_matrix_complex_float.h">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\matrix\gsl_matrix_complex_long_double.h">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\matrix\gsl_matrix_double.h">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\matrix\gsl_matrix_float.h">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\matrix\gsl_matrix_int.h">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\matrix\gsl_matrix_long.h">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\matrix\gsl_matrix_long_double.h">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\matrix\gsl_matrix_short.h">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\matrix\gsl_matrix_uchar.h">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\matrix\gsl_matrix_uint.h">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\matrix\gsl_matrix_ulong.h">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\matrix\gsl_matrix_ushort.h">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\min\gsl_min.h">
+      <Filter>Header Files\min</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\monte\gsl_monte.h">
+      <Filter>Header Files\monte</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\monte\gsl_monte_miser.h">
+      <Filter>Header Files\monte</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\monte\gsl_monte_plain.h">
+      <Filter>Header Files\monte</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\monte\gsl_monte_vegas.h">
+      <Filter>Header Files\monte</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\multifit\gsl_multifit.h">
+      <Filter>Header Files\multifit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\multifit\gsl_multifit_nlin.h">
+      <Filter>Header Files\multifit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\multimin\gsl_multimin.h">
+      <Filter>Header Files\multimin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\multiroots\gsl_multiroots.h">
+      <Filter>Header Files\multiroots</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ntuple\gsl_ntuple.h">
+      <Filter>Header Files\ntuple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ode-initval\gsl_odeiv.h">
+      <Filter>Header Files\ode-initval</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permutation.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_char.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_complex_double.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_complex_float.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_complex_long_double.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_double.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_float.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_int.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_long.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_long_double.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_short.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_uchar.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_uint.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_ulong.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_ushort.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_vector.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_vector_char.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_vector_complex_double.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_vector_complex_float.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_vector_complex_long_double.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_vector_double.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_vector_float.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_vector_int.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_vector_long.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_vector_long_double.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_vector_short.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_vector_uchar.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_vector_uint.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_vector_ulong.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\permutation\gsl_permute_vector_ushort.h">
+      <Filter>Header Files\permutation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poly\gsl_poly.h">
+      <Filter>Header Files\poly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qrng\gsl_qrng.h">
+      <Filter>Header Files\qrng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\randist\gsl_randist.h">
+      <Filter>Header Files\randist</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rng\gsl_rng.h">
+      <Filter>Header Files\rng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\roots\gsl_roots.h">
+      <Filter>Header Files\roots</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\siman\gsl_siman.h">
+      <Filter>Header Files\siman</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_heapsort.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_char.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_double.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_float.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_int.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_long.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_long_double.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_short.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_uchar.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_uint.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_ulong.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_ushort.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_vector.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_vector_char.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_vector_double.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_vector_float.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_vector_int.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_vector_long.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_vector_long_double.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_vector_short.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_vector_uchar.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_vector_uint.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_vector_ulong.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sort\gsl_sort_vector_ushort.h">
+      <Filter>Header Files\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_airy.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_bessel.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_clausen.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_coulomb.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_coupling.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_dawson.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_debye.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_dilog.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_elementary.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_ellint.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_elljac.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_erf.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_exp.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_expint.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_fermi_dirac.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_gamma.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_gegenbauer.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_hyperg.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_laguerre.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_lambert.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_legendre.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_log.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_pow_int.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_psi.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_result.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_synchrotron.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_transport.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_trig.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_sf_zeta.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\specfunc\gsl_specfunc.h">
+      <Filter>Header Files\specfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\statistics\gsl_statistics.h">
+      <Filter>Header Files\statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\statistics\gsl_statistics_char.h">
+      <Filter>Header Files\statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\statistics\gsl_statistics_double.h">
+      <Filter>Header Files\statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\statistics\gsl_statistics_float.h">
+      <Filter>Header Files\statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\statistics\gsl_statistics_int.h">
+      <Filter>Header Files\statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\statistics\gsl_statistics_long.h">
+      <Filter>Header Files\statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\statistics\gsl_statistics_long_double.h">
+      <Filter>Header Files\statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\statistics\gsl_statistics_short.h">
+      <Filter>Header Files\statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\statistics\gsl_statistics_uchar.h">
+      <Filter>Header Files\statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\statistics\gsl_statistics_uint.h">
+      <Filter>Header Files\statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\statistics\gsl_statistics_ulong.h">
+      <Filter>Header Files\statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\statistics\gsl_statistics_ushort.h">
+      <Filter>Header Files\statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sum\gsl_sum.h">
+      <Filter>Header Files\sum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sys\gsl_sys.h">
+      <Filter>Header Files\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\gsl_test.h">
+      <Filter>Header Files\test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vector\gsl_vector.h">
+      <Filter>Header Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vector\gsl_vector_char.h">
+      <Filter>Header Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vector\gsl_vector_complex.h">
+      <Filter>Header Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vector\gsl_vector_complex_double.h">
+      <Filter>Header Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vector\gsl_vector_complex_float.h">
+      <Filter>Header Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vector\gsl_vector_complex_long_double.h">
+      <Filter>Header Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vector\gsl_vector_double.h">
+      <Filter>Header Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vector\gsl_vector_float.h">
+      <Filter>Header Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vector\gsl_vector_int.h">
+      <Filter>Header Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vector\gsl_vector_long.h">
+      <Filter>Header Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vector\gsl_vector_long_double.h">
+      <Filter>Header Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vector\gsl_vector_short.h">
+      <Filter>Header Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vector\gsl_vector_uchar.h">
+      <Filter>Header Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vector\gsl_vector_uint.h">
+      <Filter>Header Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vector\gsl_vector_ulong.h">
+      <Filter>Header Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vector\gsl_vector_ushort.h">
+      <Filter>Header Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wavelet\gsl_wavelet.h">
+      <Filter>Header Files\wavelet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wavelet\gsl_wavelet2d.h">
+      <Filter>Header Files\wavelet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\gsl\gsl_blas.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_blas_types.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_block.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_block_char.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_block_complex_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_block_complex_float.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_block_complex_long_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_block_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_block_float.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_block_int.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_block_long.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_block_long_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_block_short.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_block_uchar.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_block_uint.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_block_ulong.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_block_ushort.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_cblas.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_cdf.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_chebyshev.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_check_range.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_combination.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_complex.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_complex_math.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_const.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_const_cgs.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_const_cgsm.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_const_mks.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_const_mksa.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_const_num.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_deriv.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_dft_complex.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_dft_complex_float.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_dht.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_diff.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_eigen.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_errno.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_fft.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_fft_complex.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_fft_complex_float.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_fft_halfcomplex.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_fft_halfcomplex_float.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_fft_real.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_fft_real_float.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_fit.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_heapsort.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_histogram.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_histogram2d.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_ieee_utils.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_integration.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_interp.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_linalg.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_machine.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_math.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_matrix.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_matrix_char.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_matrix_complex_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_matrix_complex_float.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_matrix_complex_long_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_matrix_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_matrix_float.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_matrix_int.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_matrix_long.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_matrix_long_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_matrix_short.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_matrix_uchar.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_matrix_uint.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_matrix_ulong.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_matrix_ushort.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_message.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_min.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_mode.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_monte.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_monte_miser.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_monte_plain.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_monte_vegas.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_multifit.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_multifit_nlin.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_multimin.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_multiroots.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_nan.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_ntuple.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_odeiv.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permutation.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_char.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_complex_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_complex_float.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_complex_long_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_float.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_int.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_long.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_long_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_short.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_uchar.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_uint.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_ulong.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_ushort.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_vector.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_vector_char.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_vector_complex_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_vector_complex_float.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_vector_complex_long_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_vector_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_vector_float.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_vector_int.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_vector_long.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_vector_long_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_vector_short.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_vector_uchar.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_vector_uint.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_vector_ulong.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_permute_vector_ushort.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_poly.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_pow_int.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_precision.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_qrng.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_randist.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_rng.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_roots.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_airy.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_bessel.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_clausen.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_coulomb.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_coupling.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_dawson.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_debye.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_dilog.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_elementary.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_ellint.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_elljac.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_erf.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_exp.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_expint.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_fermi_dirac.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_gamma.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_gegenbauer.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_hyperg.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_laguerre.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_lambert.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_legendre.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_log.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_pow_int.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_psi.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_result.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_synchrotron.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_transport.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_trig.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sf_zeta.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_siman.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_char.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_float.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_int.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_long.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_long_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_short.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_uchar.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_uint.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_ulong.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_ushort.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_vector.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_vector_char.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_vector_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_vector_float.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_vector_int.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_vector_long.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_vector_long_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_vector_short.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_vector_uchar.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_vector_uint.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_vector_ulong.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sort_vector_ushort.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_specfunc.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_spline.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_statistics.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_statistics_char.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_statistics_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_statistics_float.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_statistics_int.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_statistics_long.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_statistics_long_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_statistics_short.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_statistics_uchar.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_statistics_uint.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_statistics_ulong.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_statistics_ushort.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sum.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_sys.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_test.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_types.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_vector.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_vector_char.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_vector_complex.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_vector_complex_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_vector_complex_float.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_vector_complex_long_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_vector_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_vector_float.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_vector_int.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_vector_long.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_vector_long_double.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_vector_short.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_vector_uchar.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_vector_uint.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_vector_ulong.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_vector_ushort.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_version.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_wavelet.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\gsl\gsl_wavelet2d.h">
+      <Filter>Copied Headers</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

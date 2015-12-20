@@ -1,0 +1,845 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug-DLL|Win32">
+      <Configuration>Debug-DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug-DLL|x64">
+      <Configuration>Debug-DLL</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug-StaticLib|Win32">
+      <Configuration>Debug-StaticLib</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug-StaticLib|x64">
+      <Configuration>Debug-StaticLib</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-DLL|Win32">
+      <Configuration>Release-DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-DLL|x64">
+      <Configuration>Release-DLL</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-StaticLib|Win32">
+      <Configuration>Release-StaticLib</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-StaticLib|x64">
+      <Configuration>Release-StaticLib</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EC641BB5-4A35-462F-9295-B6B46FFBFE8E}</ProjectGuid>
+    <RootNamespace>install_libgsl</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.24627.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">
+    <PreBuildEvent>
+      <Command>rem Modify the following to change install location
+set LIBGSL_INSTALL_DIR=c:\libgsl-1.8
+set _PACKAGE=gsl-1.8
+
+mkdir %25LIBGSL_INSTALL_DIR%25
+
+mkdir %25LIBGSL_INSTALL_DIR%25\contrib
+mkdir %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\Readme_GnuWin32.txt %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\AUTHORS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\BUGS %25LIBGSL_INSTALL_DIR%25\contrib\g%25_PACKAGE%25
+copy .\..\..\ChangeLog %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\COPYING %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\NEWS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\README %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\SUPPORT %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\THANKS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\TODO %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+
+mkdir %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgsl\Debug - DLL\libgsl_d.dll copy .\..\libgsl\Debug - DLL\libgsl_d.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgsl\Release - DLL\libgsl.dll copy .\..\libgsl\Release - DLL\libgsl.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgslcblas\Debug - DLL\libgslcblas_d.dll copy .\..\libgslcblas\Debug - DLL\libgslcblas_d.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgslcblas\Release - DLL\libgslcblas.dll copy .\..\libgslcblas\Release - DLL\libgslcblas.dll %25LIBGSL_INSTALL_DIR%25\bin
+
+mkdir %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Debug - Static Lib\libgsl_d.lib copy .\..\libgsl\Debug - Static Lib\libgsl_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Release - Static Lib\libgsl.lib copy .\..\libgsl\Release - Static Lib\libgsl.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Debug - Static Lib\libgslcblas_d.lib copy .\..\libgslcblas\Debug - Static Lib\libgslcblas_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Release - Static Lib\libgslcblas.lib copy .\..\libgslcblas\Release - Static Lib\libgslcblas.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Debug - DLL\libgsl_dll_d.lib copy .\..\libgsl\Debug - DLL\libgsl_dll_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Release - DLL\libgsl_dll.lib copy .\..\libgsl\Release - DLL\libgsl_dll.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Debug - DLL\libgslcblas_dll_d.lib copy .\..\libgslcblas\Debug - DLL\libgslcblas_dll_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Release - DLL\libgslcblas_dll.lib copy .\..\libgslcblas\Release - DLL\libgslcblas_dll.lib %25LIBGSL_INSTALL_DIR%25\lib
+
+mkdir %25LIBGSL_INSTALL_DIR%25\doc
+xcopy /S .\..\..\doc\*.* %25LIBGSL_INSTALL_DIR%25\doc
+
+mkdir %25LIBGSL_INSTALL_DIR%25\include
+mkdir %25LIBGSL_INSTALL_DIR%25\include\gsl
+copy .\..\..\gsl\gsl_*.h %25LIBGSL_INSTALL_DIR%25\include\gsl
+
+set LIBGSL_INSTALL_DIR=
+set _PACKAGE=</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">
+    <PreBuildEvent>
+      <Command>rem Modify the following to change install location
+set LIBGSL_INSTALL_DIR=c:\libgsl-1.8
+set _PACKAGE=gsl-1.8
+
+mkdir %25LIBGSL_INSTALL_DIR%25
+
+mkdir %25LIBGSL_INSTALL_DIR%25\contrib
+mkdir %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\Readme_GnuWin32.txt %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\AUTHORS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\BUGS %25LIBGSL_INSTALL_DIR%25\contrib\g%25_PACKAGE%25
+copy .\..\..\ChangeLog %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\COPYING %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\NEWS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\README %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\SUPPORT %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\THANKS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\TODO %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+
+mkdir %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgsl\Debug - DLL\libgsl_d.dll copy .\..\libgsl\Debug - DLL\libgsl_d.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgsl\Release - DLL\libgsl.dll copy .\..\libgsl\Release - DLL\libgsl.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgslcblas\Debug - DLL\libgslcblas_d.dll copy .\..\libgslcblas\Debug - DLL\libgslcblas_d.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgslcblas\Release - DLL\libgslcblas.dll copy .\..\libgslcblas\Release - DLL\libgslcblas.dll %25LIBGSL_INSTALL_DIR%25\bin
+
+mkdir %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Debug - Static Lib\libgsl_d.lib copy .\..\libgsl\Debug - Static Lib\libgsl_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Release - Static Lib\libgsl.lib copy .\..\libgsl\Release - Static Lib\libgsl.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Debug - Static Lib\libgslcblas_d.lib copy .\..\libgslcblas\Debug - Static Lib\libgslcblas_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Release - Static Lib\libgslcblas.lib copy .\..\libgslcblas\Release - Static Lib\libgslcblas.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Debug - DLL\libgsl_dll_d.lib copy .\..\libgsl\Debug - DLL\libgsl_dll_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Release - DLL\libgsl_dll.lib copy .\..\libgsl\Release - DLL\libgsl_dll.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Debug - DLL\libgslcblas_dll_d.lib copy .\..\libgslcblas\Debug - DLL\libgslcblas_dll_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Release - DLL\libgslcblas_dll.lib copy .\..\libgslcblas\Release - DLL\libgslcblas_dll.lib %25LIBGSL_INSTALL_DIR%25\lib
+
+mkdir %25LIBGSL_INSTALL_DIR%25\doc
+xcopy /S .\..\..\doc\*.* %25LIBGSL_INSTALL_DIR%25\doc
+
+mkdir %25LIBGSL_INSTALL_DIR%25\include
+mkdir %25LIBGSL_INSTALL_DIR%25\include\gsl
+copy .\..\..\gsl\gsl_*.h %25LIBGSL_INSTALL_DIR%25\include\gsl
+
+set LIBGSL_INSTALL_DIR=
+set _PACKAGE=</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">
+    <PreBuildEvent>
+      <Command>rem Modify the following to change install location
+set LIBGSL_INSTALL_DIR=c:\libgsl-1.8
+set _PACKAGE=gsl-1.8
+
+mkdir %25LIBGSL_INSTALL_DIR%25
+
+mkdir %25LIBGSL_INSTALL_DIR%25\contrib
+mkdir %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\Readme_GnuWin32.txt %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\AUTHORS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\BUGS %25LIBGSL_INSTALL_DIR%25\contrib\g%25_PACKAGE%25
+copy .\..\..\ChangeLog %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\COPYING %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\NEWS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\README %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\SUPPORT %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\THANKS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\TODO %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+
+mkdir %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgsl\Debug - DLL\libgsl_d.dll copy .\..\libgsl\Debug - DLL\libgsl_d.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgsl\Release - DLL\libgsl.dll copy .\..\libgsl\Release - DLL\libgsl.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgslcblas\Debug - DLL\libgslcblas_d.dll copy .\..\libgslcblas\Debug - DLL\libgslcblas_d.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgslcblas\Release - DLL\libgslcblas.dll copy .\..\libgslcblas\Release - DLL\libgslcblas.dll %25LIBGSL_INSTALL_DIR%25\bin
+
+mkdir %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Debug - Static Lib\libgsl_d.lib copy .\..\libgsl\Debug - Static Lib\libgsl_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Release - Static Lib\libgsl.lib copy .\..\libgsl\Release - Static Lib\libgsl.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Debug - Static Lib\libgslcblas_d.lib copy .\..\libgslcblas\Debug - Static Lib\libgslcblas_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Release - Static Lib\libgslcblas.lib copy .\..\libgslcblas\Release - Static Lib\libgslcblas.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Debug - DLL\libgsl_dll_d.lib copy .\..\libgsl\Debug - DLL\libgsl_dll_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Release - DLL\libgsl_dll.lib copy .\..\libgsl\Release - DLL\libgsl_dll.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Debug - DLL\libgslcblas_dll_d.lib copy .\..\libgslcblas\Debug - DLL\libgslcblas_dll_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Release - DLL\libgslcblas_dll.lib copy .\..\libgslcblas\Release - DLL\libgslcblas_dll.lib %25LIBGSL_INSTALL_DIR%25\lib
+
+mkdir %25LIBGSL_INSTALL_DIR%25\doc
+xcopy /S .\..\..\doc\*.* %25LIBGSL_INSTALL_DIR%25\doc
+
+mkdir %25LIBGSL_INSTALL_DIR%25\include
+mkdir %25LIBGSL_INSTALL_DIR%25\include\gsl
+copy .\..\..\gsl\gsl_*.h %25LIBGSL_INSTALL_DIR%25\include\gsl
+
+set LIBGSL_INSTALL_DIR=
+set _PACKAGE=</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">
+    <PreBuildEvent>
+      <Command>rem Modify the following to change install location
+set LIBGSL_INSTALL_DIR=c:\libgsl-1.8
+set _PACKAGE=gsl-1.8
+
+mkdir %25LIBGSL_INSTALL_DIR%25
+
+mkdir %25LIBGSL_INSTALL_DIR%25\contrib
+mkdir %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\Readme_GnuWin32.txt %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\AUTHORS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\BUGS %25LIBGSL_INSTALL_DIR%25\contrib\g%25_PACKAGE%25
+copy .\..\..\ChangeLog %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\COPYING %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\NEWS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\README %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\SUPPORT %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\THANKS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\TODO %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+
+mkdir %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgsl\Debug - DLL\libgsl_d.dll copy .\..\libgsl\Debug - DLL\libgsl_d.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgsl\Release - DLL\libgsl.dll copy .\..\libgsl\Release - DLL\libgsl.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgslcblas\Debug - DLL\libgslcblas_d.dll copy .\..\libgslcblas\Debug - DLL\libgslcblas_d.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgslcblas\Release - DLL\libgslcblas.dll copy .\..\libgslcblas\Release - DLL\libgslcblas.dll %25LIBGSL_INSTALL_DIR%25\bin
+
+mkdir %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Debug - Static Lib\libgsl_d.lib copy .\..\libgsl\Debug - Static Lib\libgsl_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Release - Static Lib\libgsl.lib copy .\..\libgsl\Release - Static Lib\libgsl.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Debug - Static Lib\libgslcblas_d.lib copy .\..\libgslcblas\Debug - Static Lib\libgslcblas_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Release - Static Lib\libgslcblas.lib copy .\..\libgslcblas\Release - Static Lib\libgslcblas.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Debug - DLL\libgsl_dll_d.lib copy .\..\libgsl\Debug - DLL\libgsl_dll_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Release - DLL\libgsl_dll.lib copy .\..\libgsl\Release - DLL\libgsl_dll.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Debug - DLL\libgslcblas_dll_d.lib copy .\..\libgslcblas\Debug - DLL\libgslcblas_dll_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Release - DLL\libgslcblas_dll.lib copy .\..\libgslcblas\Release - DLL\libgslcblas_dll.lib %25LIBGSL_INSTALL_DIR%25\lib
+
+mkdir %25LIBGSL_INSTALL_DIR%25\doc
+xcopy /S .\..\..\doc\*.* %25LIBGSL_INSTALL_DIR%25\doc
+
+mkdir %25LIBGSL_INSTALL_DIR%25\include
+mkdir %25LIBGSL_INSTALL_DIR%25\include\gsl
+copy .\..\..\gsl\gsl_*.h %25LIBGSL_INSTALL_DIR%25\include\gsl
+
+set LIBGSL_INSTALL_DIR=
+set _PACKAGE=</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">
+    <PreBuildEvent>
+      <Command>rem Modify the following to change install location
+set LIBGSL_INSTALL_DIR=c:\libgsl-1.8
+set _PACKAGE=gsl-1.8
+
+mkdir %25LIBGSL_INSTALL_DIR%25
+
+mkdir %25LIBGSL_INSTALL_DIR%25\contrib
+mkdir %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\Readme_GnuWin32.txt %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\AUTHORS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\BUGS %25LIBGSL_INSTALL_DIR%25\contrib\g%25_PACKAGE%25
+copy .\..\..\ChangeLog %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\COPYING %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\NEWS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\README %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\SUPPORT %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\THANKS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\TODO %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+
+mkdir %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgsl\Debug - DLL\libgsl_d.dll copy .\..\libgsl\Debug - DLL\libgsl_d.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgsl\Release - DLL\libgsl.dll copy .\..\libgsl\Release - DLL\libgsl.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgslcblas\Debug - DLL\libgslcblas_d.dll copy .\..\libgslcblas\Debug - DLL\libgslcblas_d.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgslcblas\Release - DLL\libgslcblas.dll copy .\..\libgslcblas\Release - DLL\libgslcblas.dll %25LIBGSL_INSTALL_DIR%25\bin
+
+mkdir %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Debug - Static Lib\libgsl_d.lib copy .\..\libgsl\Debug - Static Lib\libgsl_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Release - Static Lib\libgsl.lib copy .\..\libgsl\Release - Static Lib\libgsl.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Debug - Static Lib\libgslcblas_d.lib copy .\..\libgslcblas\Debug - Static Lib\libgslcblas_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Release - Static Lib\libgslcblas.lib copy .\..\libgslcblas\Release - Static Lib\libgslcblas.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Debug - DLL\libgsl_dll_d.lib copy .\..\libgsl\Debug - DLL\libgsl_dll_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Release - DLL\libgsl_dll.lib copy .\..\libgsl\Release - DLL\libgsl_dll.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Debug - DLL\libgslcblas_dll_d.lib copy .\..\libgslcblas\Debug - DLL\libgslcblas_dll_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Release - DLL\libgslcblas_dll.lib copy .\..\libgslcblas\Release - DLL\libgslcblas_dll.lib %25LIBGSL_INSTALL_DIR%25\lib
+
+mkdir %25LIBGSL_INSTALL_DIR%25\doc
+xcopy /S .\..\..\doc\*.* %25LIBGSL_INSTALL_DIR%25\doc
+
+mkdir %25LIBGSL_INSTALL_DIR%25\include
+mkdir %25LIBGSL_INSTALL_DIR%25\include\gsl
+copy .\..\..\gsl\gsl_*.h %25LIBGSL_INSTALL_DIR%25\include\gsl
+
+set LIBGSL_INSTALL_DIR=
+set _PACKAGE=</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">
+    <PreBuildEvent>
+      <Command>rem Modify the following to change install location
+set LIBGSL_INSTALL_DIR=c:\libgsl-1.8
+set _PACKAGE=gsl-1.8
+
+mkdir %25LIBGSL_INSTALL_DIR%25
+
+mkdir %25LIBGSL_INSTALL_DIR%25\contrib
+mkdir %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\Readme_GnuWin32.txt %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\AUTHORS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\BUGS %25LIBGSL_INSTALL_DIR%25\contrib\g%25_PACKAGE%25
+copy .\..\..\ChangeLog %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\COPYING %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\NEWS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\README %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\SUPPORT %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\THANKS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\TODO %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+
+mkdir %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgsl\Debug - DLL\libgsl_d.dll copy .\..\libgsl\Debug - DLL\libgsl_d.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgsl\Release - DLL\libgsl.dll copy .\..\libgsl\Release - DLL\libgsl.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgslcblas\Debug - DLL\libgslcblas_d.dll copy .\..\libgslcblas\Debug - DLL\libgslcblas_d.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgslcblas\Release - DLL\libgslcblas.dll copy .\..\libgslcblas\Release - DLL\libgslcblas.dll %25LIBGSL_INSTALL_DIR%25\bin
+
+mkdir %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Debug - Static Lib\libgsl_d.lib copy .\..\libgsl\Debug - Static Lib\libgsl_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Release - Static Lib\libgsl.lib copy .\..\libgsl\Release - Static Lib\libgsl.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Debug - Static Lib\libgslcblas_d.lib copy .\..\libgslcblas\Debug - Static Lib\libgslcblas_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Release - Static Lib\libgslcblas.lib copy .\..\libgslcblas\Release - Static Lib\libgslcblas.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Debug - DLL\libgsl_dll_d.lib copy .\..\libgsl\Debug - DLL\libgsl_dll_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Release - DLL\libgsl_dll.lib copy .\..\libgsl\Release - DLL\libgsl_dll.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Debug - DLL\libgslcblas_dll_d.lib copy .\..\libgslcblas\Debug - DLL\libgslcblas_dll_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Release - DLL\libgslcblas_dll.lib copy .\..\libgslcblas\Release - DLL\libgslcblas_dll.lib %25LIBGSL_INSTALL_DIR%25\lib
+
+mkdir %25LIBGSL_INSTALL_DIR%25\doc
+xcopy /S .\..\..\doc\*.* %25LIBGSL_INSTALL_DIR%25\doc
+
+mkdir %25LIBGSL_INSTALL_DIR%25\include
+mkdir %25LIBGSL_INSTALL_DIR%25\include\gsl
+copy .\..\..\gsl\gsl_*.h %25LIBGSL_INSTALL_DIR%25\include\gsl
+
+set LIBGSL_INSTALL_DIR=
+set _PACKAGE=</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">
+    <PreBuildEvent>
+      <Command>rem Modify the following to change install location
+set LIBGSL_INSTALL_DIR=c:\libgsl-1.8
+set _PACKAGE=gsl-1.8
+
+mkdir %25LIBGSL_INSTALL_DIR%25
+
+mkdir %25LIBGSL_INSTALL_DIR%25\contrib
+mkdir %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\Readme_GnuWin32.txt %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\AUTHORS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\BUGS %25LIBGSL_INSTALL_DIR%25\contrib\g%25_PACKAGE%25
+copy .\..\..\ChangeLog %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\COPYING %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\NEWS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\README %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\SUPPORT %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\THANKS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\TODO %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+
+mkdir %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgsl\Debug - DLL\libgsl_d.dll copy .\..\libgsl\Debug - DLL\libgsl_d.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgsl\Release - DLL\libgsl.dll copy .\..\libgsl\Release - DLL\libgsl.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgslcblas\Debug - DLL\libgslcblas_d.dll copy .\..\libgslcblas\Debug - DLL\libgslcblas_d.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgslcblas\Release - DLL\libgslcblas.dll copy .\..\libgslcblas\Release - DLL\libgslcblas.dll %25LIBGSL_INSTALL_DIR%25\bin
+
+mkdir %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Debug - Static Lib\libgsl_d.lib copy .\..\libgsl\Debug - Static Lib\libgsl_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Release - Static Lib\libgsl.lib copy .\..\libgsl\Release - Static Lib\libgsl.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Debug - Static Lib\libgslcblas_d.lib copy .\..\libgslcblas\Debug - Static Lib\libgslcblas_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Release - Static Lib\libgslcblas.lib copy .\..\libgslcblas\Release - Static Lib\libgslcblas.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Debug - DLL\libgsl_dll_d.lib copy .\..\libgsl\Debug - DLL\libgsl_dll_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Release - DLL\libgsl_dll.lib copy .\..\libgsl\Release - DLL\libgsl_dll.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Debug - DLL\libgslcblas_dll_d.lib copy .\..\libgslcblas\Debug - DLL\libgslcblas_dll_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Release - DLL\libgslcblas_dll.lib copy .\..\libgslcblas\Release - DLL\libgslcblas_dll.lib %25LIBGSL_INSTALL_DIR%25\lib
+
+mkdir %25LIBGSL_INSTALL_DIR%25\doc
+xcopy /S .\..\..\doc\*.* %25LIBGSL_INSTALL_DIR%25\doc
+
+mkdir %25LIBGSL_INSTALL_DIR%25\include
+mkdir %25LIBGSL_INSTALL_DIR%25\include\gsl
+copy .\..\..\gsl\gsl_*.h %25LIBGSL_INSTALL_DIR%25\include\gsl
+
+set LIBGSL_INSTALL_DIR=
+set _PACKAGE=</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">
+    <PreBuildEvent>
+      <Command>rem Modify the following to change install location
+set LIBGSL_INSTALL_DIR=c:\libgsl-1.8
+set _PACKAGE=gsl-1.8
+
+mkdir %25LIBGSL_INSTALL_DIR%25
+
+mkdir %25LIBGSL_INSTALL_DIR%25\contrib
+mkdir %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\Readme_GnuWin32.txt %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\AUTHORS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\BUGS %25LIBGSL_INSTALL_DIR%25\contrib\g%25_PACKAGE%25
+copy .\..\..\ChangeLog %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\COPYING %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\NEWS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\README %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\SUPPORT %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\THANKS %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+copy .\..\..\TODO %25LIBGSL_INSTALL_DIR%25\contrib\%25_PACKAGE%25
+
+mkdir %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgsl\Debug - DLL\libgsl_d.dll copy .\..\libgsl\Debug - DLL\libgsl_d.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgsl\Release - DLL\libgsl.dll copy .\..\libgsl\Release - DLL\libgsl.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgslcblas\Debug - DLL\libgslcblas_d.dll copy .\..\libgslcblas\Debug - DLL\libgslcblas_d.dll %25LIBGSL_INSTALL_DIR%25\bin
+if exist .\..\libgslcblas\Release - DLL\libgslcblas.dll copy .\..\libgslcblas\Release - DLL\libgslcblas.dll %25LIBGSL_INSTALL_DIR%25\bin
+
+mkdir %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Debug - Static Lib\libgsl_d.lib copy .\..\libgsl\Debug - Static Lib\libgsl_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Release - Static Lib\libgsl.lib copy .\..\libgsl\Release - Static Lib\libgsl.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Debug - Static Lib\libgslcblas_d.lib copy .\..\libgslcblas\Debug - Static Lib\libgslcblas_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Release - Static Lib\libgslcblas.lib copy .\..\libgslcblas\Release - Static Lib\libgslcblas.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Debug - DLL\libgsl_dll_d.lib copy .\..\libgsl\Debug - DLL\libgsl_dll_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgsl\Release - DLL\libgsl_dll.lib copy .\..\libgsl\Release - DLL\libgsl_dll.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Debug - DLL\libgslcblas_dll_d.lib copy .\..\libgslcblas\Debug - DLL\libgslcblas_dll_d.lib %25LIBGSL_INSTALL_DIR%25\lib
+if exist .\..\libgslcblas\Release - DLL\libgslcblas_dll.lib copy .\..\libgslcblas\Release - DLL\libgslcblas_dll.lib %25LIBGSL_INSTALL_DIR%25\lib
+
+mkdir %25LIBGSL_INSTALL_DIR%25\doc
+xcopy /S .\..\..\doc\*.* %25LIBGSL_INSTALL_DIR%25\doc
+
+mkdir %25LIBGSL_INSTALL_DIR%25\include
+mkdir %25LIBGSL_INSTALL_DIR%25\include\gsl
+copy .\..\..\gsl\gsl_*.h %25LIBGSL_INSTALL_DIR%25\include\gsl
+
+set LIBGSL_INSTALL_DIR=
+set _PACKAGE=</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\AUTHORS">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\BUGS">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ChangeLog">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\config.h.in">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\COPYING">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\INSTALL">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\config.h.mingw">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\config.h.msvc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\Jambase">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\Jamfile">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\Jamrules">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\libgsl.def">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\libgslcblas.def">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\make-gsl-1.8-mingw.bat">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\runtest.bat">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\runtestwithoutput.bat">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\run_gsl_examples.bat">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\run_gsl_tests.bat">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\test_gsl.bat">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\NEWS">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\README">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\SUPPORT">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\THANKS">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\TODO">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\config.h.msvc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\Readme_VC8.htm">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\runalltests.bat">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\runtest.bat">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\jam\Readme_jam.txt">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Readme_GnuWin32.txt">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-StaticLib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-DLL|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-StaticLib|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\copy_gsl_headers\copy_gsl_headers.vcxproj">
+      <Project>{69c1e5cd-84bc-40f0-b357-4f0e917e65b7}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\libgslcblas\libgslcblas.vcxproj">
+      <Project>{f12c72b9-a7c8-4fe1-8ca7-00b06819033a}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\libgsl\libgsl.vcxproj">
+      <Project>{91ec13af-6e6d-4138-9545-86e10a740cd5}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

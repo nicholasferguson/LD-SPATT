@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{ea4799ce-2b8d-4ebd-8abb-b797fcfd907d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\jam">
+      <UniqueIdentifier>{9f5a3241-aa9f-4142-902a-537bd15a150e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\VC8">
+      <UniqueIdentifier>{69825834-7280-4653-8c00-4a6476243e9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\AUTHORS">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\BUGS">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ChangeLog">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\config.h.in">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\COPYING">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\INSTALL">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\NEWS">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\README">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Readme_GnuWin32.txt">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\SUPPORT">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\THANKS">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\TODO">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\config.h.mingw">
+      <Filter>Resources\jam</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\config.h.msvc">
+      <Filter>Resources\jam</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\Jambase">
+      <Filter>Resources\jam</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\Jamfile">
+      <Filter>Resources\jam</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\Jamrules">
+      <Filter>Resources\jam</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\libgsl.def">
+      <Filter>Resources\jam</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\libgslcblas.def">
+      <Filter>Resources\jam</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\make-gsl-1.8-mingw.bat">
+      <Filter>Resources\jam</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\Readme_jam.txt">
+      <Filter>Resources\jam</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\run_gsl_examples.bat">
+      <Filter>Resources\jam</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\run_gsl_tests.bat">
+      <Filter>Resources\jam</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\runtest.bat">
+      <Filter>Resources\jam</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\runtestwithoutput.bat">
+      <Filter>Resources\jam</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\jam\test_gsl.bat">
+      <Filter>Resources\jam</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\config.h.msvc">
+      <Filter>Resources\VC8</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Readme_VC8.htm">
+      <Filter>Resources\VC8</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\runalltests.bat">
+      <Filter>Resources\VC8</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\runtest.bat">
+      <Filter>Resources\VC8</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

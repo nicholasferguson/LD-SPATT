@@ -1,0 +1,5412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BLAS\blaswrap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BLAS\f2c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\clapack\blaswrap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\clapack\f2c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libf2c\arith.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libf2c\f2c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libf2c\fio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libf2c\fmt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libf2c\fp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libf2c\lio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libf2c\math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libf2c\rawio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libf2c\signal1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libf2c\sysdep1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\alphabet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\amarkov.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cdf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\count.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpspattparameterparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpspattparameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpstat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fortran.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gspattparameterparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gspattparameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gstat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ldspattparameterparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ldspattparameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ldstat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\markov.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\newxstat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pattern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\spattglobals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\spattparameterparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\spattparameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sspattparameterparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sspattparameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sstat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\transition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\word.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\x_PAppearFast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\x_PSucceed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\x_WordFam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\xspattparameterparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\xspattparameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\xstat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\blaswrap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\clapack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\f2c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\unistd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclap\Arg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclap\ArgException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclap\CmdLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclap\CmdLineInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclap\CmdLineOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclap\DocBookOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclap\HelpVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclap\IgnoreRestVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclap\MultiArg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclap\StdOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclap\SwitchArg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclap\UnlabeledMultiArg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclap\UnlabeledValueArg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclap\ValueArg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclap\VersionVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclap\Visitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclap\XorHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\caxpy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ccopy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\cdotc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\cdotu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\cgbmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\cgemm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\cgemv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\cgerc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\cgeru.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\chbmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\chemm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\chemv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\cher.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\cher2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\cher2k.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\cherk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\chpmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\chpr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\chpr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\crotg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\cscal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\csrot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\csscal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\cswap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\csymm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\csyr2k.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\csyrk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ctbmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ctbsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ctpmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ctpsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ctrmm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ctrmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ctrsm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ctrsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dasum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\daxpy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dcabs1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dcopy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ddot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dgbmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dgemm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dgemv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dnrm2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\drot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\drotg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\drotm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\drotmg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dsbmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dscal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dsdot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dspmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dspr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dspr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dswap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dsymm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dsymv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dsyr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dsyr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dsyr2k.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dsyrk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dtbmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dtbsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dtpmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dtpsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dtrmm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dtrmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dtrsm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dtrsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dzasum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\dznrm2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\icamax.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\idamax.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\isamax.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\izamax.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\lsame.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\sasum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\saxpy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\scabs1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\scasum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\scnrm2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\scopy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\sdot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\sdsdot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\sgbmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\sgemm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\sgemv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\sger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\snrm2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\srot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\srotg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\srotm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\srotmg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ssbmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\sscal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\sspmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\sspr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\sspr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\sswap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ssymm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ssymv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ssyr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ssyr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ssyr2k.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ssyrk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\stbmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\stbsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\stpmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\stpsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\strmm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\strmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\strsm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\strsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\xerbla.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zaxpy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zcopy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zdotc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zdotu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zdrot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zdscal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zgbmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zgemm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zgemv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zgerc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zgeru.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zhbmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zhemm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zhemv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zher.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zher2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zher2k.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zherk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zhpmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zhpr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zhpr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zrotg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zscal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zswap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zsymm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zsyr2k.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\zsyrk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ztbmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ztbsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ztpmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ztpsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ztrmm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ztrmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ztrsm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BLAS\ztrsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cbdsqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgbbrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgbequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgbsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgbsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgbtf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgbtrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgebak.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgebal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgebd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgebrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgecon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgeequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgeesx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgeev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgeevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgegs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgegv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgehd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgehrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgelq2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgelqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgels.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgelsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgelss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgelsx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgelsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgeql2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgeqlf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgeqp3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgeqpf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgeqr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgeqrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgerfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgerq2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgerqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgesc2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgesdd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgesv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgesvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgesvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgetc2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgetf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgetrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgetri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgetrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cggbak.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cggbal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgges.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cggesx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cggev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cggevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cggglm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgghrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgglse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cggqrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cggrqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cggsvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cggsvp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgtcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgtrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgtsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgtsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgttrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgttrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cgtts2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chbev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chbevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chbevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chbgst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chbgv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chbgvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chbgvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chbtrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\checon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cheev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cheevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cheevr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cheevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chegs2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chegst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chegv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chegvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chegvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cherfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chesv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chesvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chetd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chetf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chetrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chetrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chetri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chetrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chgeqz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chpcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chpev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chpevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chpevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chpgst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chpgv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chpgvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chpgvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chpsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chpsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chptrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chptrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chsein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\chseqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clabrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clacgv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clacn2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clacon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clacp2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clacpy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clacrm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clacrt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cladiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claed0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claed7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claed8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claesy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claev2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clag2z.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clags2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clagtm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clahef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clahqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clahr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clahrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claic1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clals0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clalsa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clalsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clangb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clange.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clangt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clanhb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clanhe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clanhp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clanhs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clanht.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clansb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clansp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clansy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clantb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clantp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clantr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clapll.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clapmt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claqgb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claqge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claqhb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claqhe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claqhp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claqp2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claqps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claqr0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claqr1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claqr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claqr3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claqr4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claqr5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claqsb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claqsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claqsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clar1v.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clar2v.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clarcm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clarf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clarfb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clarfg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clarft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clarfx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clargv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clarnv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clarrv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clartg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clartv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clarz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clarzb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clarzt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clascl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clasr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\classq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\claswp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clasyf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clatbs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clatdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clatps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clatrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clatrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clatrz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clatzm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clauu2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\clauum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpbequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpbstf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpbsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpbsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpbtf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpbtrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpocon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpoequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cporfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cposv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cposvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpotf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpotrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpotri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpotrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cppcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cppequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cppsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cppsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpptrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cptcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpteqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cptrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cptsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cptsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpttrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cpttrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cptts2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\crot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cspcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cspmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cspr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\csprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cspsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cspsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\csptrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\csptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\csptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\csrot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\csrscl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cstedc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cstegr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cstein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cstemr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\csteqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\csycon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\csymv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\csyr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\csyrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\csysv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\csysvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\csytf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\csytrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\csytri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\csytrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctgevc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctgex2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctgexc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctgsen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctgsja.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctgsna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctgsy2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctgsyl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctpcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctrcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctrevc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctrexc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctrrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctrsen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctrsna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctrsyl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctrti2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctrtri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctrtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctzrqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ctzrzf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cung2l.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cung2r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cungbr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cunghr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cungl2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cunglq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cungql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cungqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cungr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cungrq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cungtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cunm2l.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cunm2r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cunmbr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cunmhr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cunml2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cunmlq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cunmql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cunmqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cunmr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cunmr3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cunmrq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cunmrz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cunmtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cupgtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\cupmtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dbdsdc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dbdsqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ddisna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgbbrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgbequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgbsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgbsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgbtf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgbtrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgebak.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgebal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgebd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgebrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgecon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgeequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgeesx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgeev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgeevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgegs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgegv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgehd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgehrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgelq2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgelqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgels.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgelsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgelss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgelsx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgelsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgeql2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgeqlf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgeqp3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgeqpf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgeqr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgeqrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgerfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgerq2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgerqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgesc2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgesdd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgesv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgesvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgesvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgetc2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgetf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgetrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgetri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgetrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dggbak.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dggbal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgges.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dggesx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dggev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dggevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dggglm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgghrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgglse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dggqrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dggrqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dggsvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dggsvp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgtcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgtrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgtsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgtsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgttrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgttrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgtts2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dhgeqz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dhsein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dhseqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\disnan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlabad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlabrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlacn2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlacon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlacpy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dladiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlae2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaebz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaed0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaed1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaed2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaed3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaed4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaed5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaed6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaed7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaed8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaed9.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaeda.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaev2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaexc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlag2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlag2s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlags2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlagtf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlagtm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlagts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlagv2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlahqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlahr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlahrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaic1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaisnan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaln2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlals0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlalsa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlalsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlamch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlamrg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaneg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlangb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlange.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlangt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlanhs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlansb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlansp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlanst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlansy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlantb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlantp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlantr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlanv2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlapll.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlapmt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlapy2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlapy3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaqgb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaqge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaqp2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaqps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaqr0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaqr1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaqr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaqr3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaqr4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaqr5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaqsb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaqsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaqsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaqtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlar1v.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlar2v.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlarf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlarfb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlarfg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlarft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlarfx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlargv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlarnv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlarra.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlarrb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlarrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlarrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlarre.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlarrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlarrj.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlarrk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlarrr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlarrv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlartg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlartv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaruv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlarz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlarzb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlarzt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlas2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlascl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasd0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasd1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasd3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasd4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasd5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasd6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasd7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasd8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasd9.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasda.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasdq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasdt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasq1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasq2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasq3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasq4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasq5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasq6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasrt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlassq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasv2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaswp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasy2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlasyf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlatbs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlatdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlatps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlatrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlatrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlatrz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlatzm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlauu2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlauum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlazq3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlazq4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dopgtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dopmtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dorg2l.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dorg2r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dorgbr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dorghr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dorgl2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dorglq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dorgql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dorgqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dorgr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dorgrq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dorgtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dorm2l.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dorm2r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dormbr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dormhr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dorml2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dormlq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dormql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dormqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dormr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dormr3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dormrq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dormrz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dormtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpbequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpbstf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpbsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpbsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpbtf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpbtrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpocon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpoequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dporfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dposv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dposvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpotf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpotrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpotri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpotrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dppcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dppequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dppsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dppsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpptrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dptcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpteqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dptrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dptsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dptsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpttrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dpttrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dptts2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\drscl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsbev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsbevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsbevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsbgst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsbgv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsbgvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsbgvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsbtrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsecnd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsgesv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dspcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dspev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dspevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dspevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dspgst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dspgv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dspgvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dspgvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dspsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dspsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsptrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsptrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dstebz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dstedc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dstegr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dstein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dstemr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsteqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsterf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dstev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dstevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dstevr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dstevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsycon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsyev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsyevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsyevr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsyevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsygs2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsygst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsygv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsygvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsygvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsyrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsysv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsysvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsytd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsytf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsytrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsytrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsytri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsytrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtgevc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtgex2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtgexc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtgsen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtgsja.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtgsna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtgsy2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtgsyl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtpcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtrcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtrevc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtrexc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtrrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtrsen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtrsna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtrsyl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtrti2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtrtri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtrtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtzrqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtzrzf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dzsum1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\icmax1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ieeeck.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ilaenv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ilaver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\iparmq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\izmax1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\lsame.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\lsamen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sbdsdc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sbdsqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\scsum1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sdisna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\second.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgbbrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgbequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgbsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgbsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgbtf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgbtrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgebak.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgebal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgebd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgebrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgecon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgeequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgeesx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgeev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgeevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgegs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgegv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgehd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgehrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgelq2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgelqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgels.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgelsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgelss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgelsx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgelsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgeql2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgeqlf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgeqp3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgeqpf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgeqr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgeqrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgerfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgerq2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgerqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgesc2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgesdd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgesv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgesvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgesvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgetc2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgetf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgetrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgetri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgetrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sggbak.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sggbal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgges.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sggesx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sggev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sggevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sggglm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgghrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgglse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sggqrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sggrqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sggsvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sggsvp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgtcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgtrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgtsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgtsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgttrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgttrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sgtts2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\shgeqz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\shsein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\shseqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sisnan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slabad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slabrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slacn2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slacon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slacpy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sladiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slae2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaebz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaed0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaed1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaed2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaed3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaed4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaed5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaed6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaed7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaed8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaed9.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaeda.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaev2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaexc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slag2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slag2d.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slags2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slagtf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slagtm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slagts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slagv2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slahqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slahr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slahrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaic1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaisnan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaln2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slals0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slalsa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slalsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slamch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slamrg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaneg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slangb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slange.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slangt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slanhs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slansb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slansp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slanst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slansy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slantb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slantp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slantr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slanv2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slapll.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slapmt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slapy2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slapy3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaqgb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaqge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaqp2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaqps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaqr0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaqr1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaqr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaqr3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaqr4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaqr5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaqsb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaqsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaqsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaqtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slar1v.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slar2v.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slarf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slarfb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slarfg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slarft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slarfx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slargv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slarnv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slarra.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slarrb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slarrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slarrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slarre.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slarrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slarrj.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slarrk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slarrr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slarrv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slartg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slartv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaruv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slarz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slarzb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slarzt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slas2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slascl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasd0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasd1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasd3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasd4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasd5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasd6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasd7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasd8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasd9.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasda.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasdq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasdt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasq1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasq2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasq3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasq4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasq5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasq6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasrt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slassq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasv2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slaswp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasy2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slasyf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slatbs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slatdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slatps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slatrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slatrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slatrz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slatzm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slauu2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slauum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slazq3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\slazq4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sopgtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sopmtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sorg2l.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sorg2r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sorgbr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sorghr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sorgl2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sorglq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sorgql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sorgqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sorgr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sorgrq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sorgtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sorm2l.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sorm2r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sormbr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sormhr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sorml2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sormlq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sormql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sormqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sormr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sormr3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sormrq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sormrz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sormtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spbequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spbstf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spbsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spbsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spbtf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spbtrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spocon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spoequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sporfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sposv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sposvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spotf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spotrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spotri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spotrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sppcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sppequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sppsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sppsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spptrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sptcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spteqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sptrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sptsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sptsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spttrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\spttrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sptts2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\srscl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssbev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssbevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssbevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssbgst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssbgv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssbgvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssbgvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssbtrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sspcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sspev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sspevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sspevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sspgst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sspgv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sspgvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sspgvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sspsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sspsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssptrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssptrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sstebz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sstedc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sstegr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sstein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sstemr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssteqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssterf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sstev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sstevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sstevr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\sstevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssycon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssyev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssyevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssyevr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssyevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssygs2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssygst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssygv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssygvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssygvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssyrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssysv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssysvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssytd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssytf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssytrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssytrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssytri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ssytrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\stbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\stbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\stbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\stgevc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\stgex2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\stgexc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\stgsen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\stgsja.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\stgsna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\stgsy2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\stgsyl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\stpcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\stprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\stptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\stptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\strcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\strevc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\strexc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\strrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\strsen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\strsna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\strsyl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\strti2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\strtri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\strtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\stzrqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\stzrzf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\xerbla.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zbdsqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zcgesv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zdrot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zdrscl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgbbrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgbequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgbsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgbsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgbtf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgbtrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgebak.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgebal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgebd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgebrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgecon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgeequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgeesx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgeev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgeevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgegs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgegv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgehd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgehrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgelq2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgelqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgels.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgelsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgelss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgelsx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgelsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgeql2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgeqlf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgeqp3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgeqpf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgeqr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgeqrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgerfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgerq2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgerqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgesc2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgesdd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgesv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgesvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgesvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgetc2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgetf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgetrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgetri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgetrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zggbak.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zggbal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgges.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zggesx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zggev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zggevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zggglm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgghrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgglse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zggqrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zggrqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zggsvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zggsvp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgtcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgtrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgtsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgtsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgttrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgttrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zgtts2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhbev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhbevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhbevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhbgst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhbgv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhbgvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhbgvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhbtrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhecon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zheev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zheevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zheevr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zheevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhegs2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhegst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhegv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhegvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhegvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zherfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhesv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhesvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhetd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhetf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhetrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhetrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhetri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhetrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhgeqz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhpcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhpev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhpevd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhpevx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhpgst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhpgv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhpgvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhpgvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhpsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhpsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhptrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhptrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhsein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zhseqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlabrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlacgv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlacn2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlacon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlacp2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlacpy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlacrm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlacrt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zladiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaed0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaed7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaed8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaesy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaev2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlag2c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlags2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlagtm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlahef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlahqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlahr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlahrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaic1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlals0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlalsa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlalsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlangb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlange.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlangt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlanhb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlanhe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlanhp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlanhs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlanht.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlansb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlansp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlansy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlantb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlantp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlantr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlapll.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlapmt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaqgb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaqge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaqhb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaqhe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaqhp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaqp2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaqps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaqr0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaqr1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaqr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaqr3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaqr4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaqr5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaqsb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaqsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaqsy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlar1v.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlar2v.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlarcm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlarf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlarfb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlarfg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlarft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlarfx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlargv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlarnv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlarrv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlartg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlartv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlarz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlarzb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlarzt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlascl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlasr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlassq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlaswp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlasyf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlatbs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlatdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlatps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlatrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlatrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlatrz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlatzm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlauu2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zlauum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpbequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpbstf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpbsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpbsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpbtf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpbtrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpocon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpoequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zporfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zposv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zposvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpotf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpotrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpotri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpotrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zppcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zppequ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zppsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zppsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpptrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zptcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpteqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zptrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zptsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zptsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpttrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zpttrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zptts2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zrot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zspcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zspmv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zspr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zsprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zspsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zspsvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zsptrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zsptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zsptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zstedc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zstegr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zstein.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zstemr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zsteqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zsycon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zsymv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zsyr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zsyrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zsysv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zsysvx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zsytf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zsytrf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zsytri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zsytrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztbcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztbrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztbtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztgevc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztgex2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztgexc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztgsen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztgsja.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztgsna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztgsy2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztgsyl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztpcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztprfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztptri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztptrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztrcon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztrevc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztrexc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztrrfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztrsen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztrsna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztrsyl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztrti2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztrtri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztrtrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztzrqf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ztzrzf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zung2l.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zung2r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zungbr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zunghr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zungl2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zunglq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zungql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zungqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zungr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zungrq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zungtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zunm2l.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zunm2r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zunmbr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zunmhr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zunml2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zunmlq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zunmql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zunmqr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zunmr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zunmr3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zunmrq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zunmrz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zunmtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zupgtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\zupmtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\abort_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\backspac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\c_abs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\c_cos.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\c_div.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\c_exp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\c_log.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\c_sin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\c_sqrt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\cabs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\close.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_abs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_acos.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_asin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_atan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_atn2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_cnjg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_cos.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_cosh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_dim.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_exp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_imag.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_int.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_lg10.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_log.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_mod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_nint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_prod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_sign.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_sin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_sinh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_sqrt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_tan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\d_tanh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\derf_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\derfc_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\dfe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\dolio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\dtime_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\due.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\ef1asc_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\ef1cmc_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\endfile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\erf_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\erfc_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\err.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\etime_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\exit_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\f77_aloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\f77vers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\fmt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\fmtlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\ftell_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\ftell64_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\getenv_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\h_abs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\h_dim.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\h_dnnt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\h_indx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\h_len.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\h_mod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\h_nint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\h_sign.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\hl_ge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\hl_gt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\hl_le.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\hl_lt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\i_abs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\i_dim.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\i_dnnt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\i_indx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\i_len.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\i_mod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\i_nint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\i_sign.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\i77vers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\iio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\ilnw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\inquire.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\l_ge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\l_gt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\l_le.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\l_lt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\lbitbits.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\lbitshft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\lread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\lwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\open.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\pow_ci.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\pow_dd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\pow_di.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\pow_hh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\pow_ii.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\pow_qq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\pow_ri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\pow_zi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\pow_zz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\qbitbits.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\qbitshft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_abs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_acos.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_asin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_atan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_atn2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_cnjg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_cos.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_cosh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_dim.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_exp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_imag.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_int.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_lg10.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_log.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_mod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_nint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_sign.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_sin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_sinh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_sqrt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_tan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\r_tanh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\rdfmt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\rewind.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\rsfe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\rsli.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\rsne.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\s_cat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\s_cmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\s_copy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\s_paus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\s_rnge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\s_stop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\sfe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\sig_die.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\signal_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\signbit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\sue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\system_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\typesize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\uio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\uninit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\wref.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\wrtfmt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\wsfe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\wsle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\wsne.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\xwsne.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\z_abs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\z_cos.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\z_div.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\z_exp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\z_log.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\z_sin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libf2c\z_sqrt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alphabet.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\amarkov.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\count.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cp.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpspattparameterparser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpspattparameters.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fortran.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gspattparameterparser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gspattparameters.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gstat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ldspattparameterparser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ldspattparameters.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ldstat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\markov.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\newxstat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pattern.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\process.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sequence.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spattparameterparser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spattparameters.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sspattparameterparser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sspattparameters.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sstat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\transition.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\word.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\x_PAppearFast.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\x_PSucceed.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\x_WordFam.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xspattparameterparser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xspattparameters.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xstat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dnaupd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpstat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dneupd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dcopy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgemv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dmout.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dnaup2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dngets.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dnrm2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dstatn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dtrmm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dvout.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\ivout.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dnaitr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dnapps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dnconv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dneigh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dscal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dsortc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dgetv0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clapack\dlaqrb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.ldspatt.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
