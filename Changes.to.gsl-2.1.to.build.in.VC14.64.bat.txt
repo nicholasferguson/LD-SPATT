@@ -1,10 +1,12 @@
-Make three changes
+Made minor changes for build.. you can run a diff against an original gsl 2.1
 (1) copied fp-win.c to subdirectory gsl-2.1-src\ieee-utils.
 (2) moved structs into file gsl-2.1-src\multifit\gsl_multifit.h
 (3) commented out this code in gsl-2.1-src\sys\gsl_sys.h
+(4) added include's to files
+(5) added macro to cache.h
 
-
-(2.1) Details .. moved from multifit\lmder.c to multifit\gsl_multifit.h
+(2.1) Details .. moved struct lmder_state_t from multifit\lmder.c to multifit\gsl_multifit.h
+and added #include <gsl/gsl_multifit.h> to multifit\lmder.c
 typedef struct
   {
     size_t iter;
@@ -59,3 +61,16 @@ double gsl_acosh (const double x);
 double gsl_asinh (const double x);
 double gsl_atanh (const double x);
 */
+
+(4) added additional include's to these files.
+\multifit\lmiterate.c
+\multifit\lmmisc.c
+\multifit\lmpar.c
+\multifit\lmset.c
+\multifit\lmutil.c
+\multifit\qrsolv.c
+\multifit\gsl_multifit.c
+
+
+(5) added macro to cache.h
+#define RETURN_IF_NULL(x) if (!x) { return ; }
