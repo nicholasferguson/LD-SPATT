@@ -14,8 +14,9 @@ to play with those samples
 +	Only test was whether it worked with spatt-1.2.2.t3
 +	Build spatt-1.2.2.t3.sln
 +	Used VC14 (Visual Studio 2015)
-	VC14, Update 1 works fine with relative paths.Previous release was buggy.
++	VC14, Update 1 works fine with relative paths.Previous release was buggy.
 #Changes to original code
 +	In spatt-1.2.2.t3\src  are several file names, renamed with prefix 'main'.
 	Each of these have a int main function.  These are test files.
 	In VC14, Solution Explorer, you can include or exclude as to test.
+	
