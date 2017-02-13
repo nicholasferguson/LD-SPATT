@@ -1,5 +1,6 @@
 (1)	Migrated LD-SPATT and dependencies over to win64
 	Included latest gsl at this time.
+(1.A) To build.  First build gsl then spatt
 	
 (2) Used VC14 (Visual Studio 2015)
 	VC14, Update 1 works fine with relative paths.Previous release was buggy.
