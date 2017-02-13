@@ -20,9 +20,12 @@ to play with those samples
 +	Used VC14 (Visual Studio 2015)
 +	VC14, Update 1 works fine with relative paths.Previous release was buggy.
 
-#Changes to original code
+#Changes to original code. Spatt
 
 +	In spatt-1.2.2.t3\src  are several file names, renamed with prefix 'main'.
 	Each of these have a int main function.  These are test files.
 	In VC14, Solution Explorer, you can include or exclude as to test.
 	
+#Changes to original code. gsl
+
+see file: Changes.to.gsl-2.1.to.build.in.VC14.64.bat.txt
