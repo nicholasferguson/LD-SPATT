@@ -7,7 +7,6 @@ to play with those samples
 \gsl-2.1-src
 \gsl-2.1-src\VC14  (open libgsl.sln)
 \spatt-1.2.2.t3     (open spatt-1.2.2.t3.sln)
-
 #Build Instructions
 +	Build libgsl.sln first. Review that configuration is for a x64 build. This creates a new directory with required include files
 \gsl-2.1-src\gsl ( this subdirectory is created during this build)
