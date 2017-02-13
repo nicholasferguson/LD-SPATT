@@ -28,4 +28,79 @@ to play with those samples
 	
 #Changes to original code. gsl
 
-see file: Changes.to.gsl-2.1.to.build.in.VC14.64.bat.txt
+Made minor changes for build.. you can run a diff against an original gsl 2.1
+(1) copied fp-win.c to subdirectory gsl-2.1-src\ieee-utils.
+(2) moved structs into file gsl-2.1-src\multifit\gsl_multifit.h
+(3) commented out this code in gsl-2.1-src\sys\gsl_sys.h
+(4) added include's to files
+(5) added macro to cache.h
+
+(2.1) Details .. moved struct lmder_state_t from multifit\lmder.c to multifit\gsl_multifit.h
+and added #include <gsl/gsl_multifit.h> to multifit\lmder.c
+typedef struct
+  {
+    size_t iter;
+    double xnorm;
+    double fnorm;
+    double delta;
+    double par;
+    gsl_matrix *J;             // Jacobian matrix 
+    gsl_matrix *r;             // R matrix in J = Q R P^T 
+    gsl_vector *tau;
+    gsl_vector *diag;          // scaling matrix D = diag(d1,...,dp) 
+    gsl_vector *qtf;           // Q^T f 
+    gsl_vector *newton;
+    gsl_vector *gradient;      // gradient g = J^T f 
+    gsl_vector *x_trial;       // trial step x + dx 
+    gsl_vector *f_trial;       // trial function f(x + dx) 
+    gsl_vector *df;
+    gsl_vector *sdiag;
+    gsl_vector *rptdx;
+    const gsl_vector *weights; // data weights 
+    gsl_vector *w;
+    gsl_vector *work1;
+    gsl_permutation * perm;
+  }
+lmder_state_t;
+
+
+(2.2) Details .. moved from multifit\lmniel.c to multifit\gsl_multifit.h
+typedef struct
+{
+  gsl_matrix *A;             /* J^T J */
+  gsl_matrix *A_copy;        /* copy of J^T J */
+  gsl_matrix *J;             /* Jacobian J(x) */
+  gsl_vector *diag;          /* D = diag(J^T J) */
+  gsl_vector *rhs;           /* rhs vector = -g = -J^T f */
+  gsl_vector *x_trial;       /* trial parameter vector */
+  gsl_vector *f_trial;       /* trial function vector */
+  gsl_vector *work;          /* workspace length p */
+  long nu;                   /* nu */
+  double mu;                 /* LM damping parameter mu */
+  double tau;                /* initial scale factor for mu */
+} lmniel_state_t;
+
+
+(3) Details... commented out this code in gsl-2.1-src\sys\gsl_sys.h
+/* nick
+double gsl_log1p (const double x);
+double gsl_expm1 (const double x);
+double gsl_hypot (const double x, const double y);
+double gsl_hypot3 (const double x, const double y, const double z);
+double gsl_acosh (const double x);
+double gsl_asinh (const double x);
+double gsl_atanh (const double x);
+*/
+
+(4) added additional include's to these files.
+\multifit\lmiterate.c
+\multifit\lmmisc.c
+\multifit\lmpar.c
+\multifit\lmset.c
+\multifit\lmutil.c
+\multifit\qrsolv.c
+\multifit\gsl_multifit.c
+
+
+(5) added macro to cache.h
+#define RETURN_IF_NULL(x) if (!x) { return ; }
