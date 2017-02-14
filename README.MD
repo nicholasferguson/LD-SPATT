@@ -3,6 +3,7 @@
 +	Spatt includes some 'Large Deviation' samples.  Migrated this over to win64
 to play with those samples
 +	Included latest gsl at this time.
++	Added a large deviation example, on coin tosses, as an excel spreadsheet.
 
 #Library folder's structure
 
