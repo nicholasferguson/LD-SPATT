@@ -1,0 +1,582 @@
+﻿  Comparing files .\..\config.h.msvc and .\..\..\CONFIG.H
+  FC: no differences encountered
+  
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of bspline.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\bspline\bspline.c, ..\..\wavelet\bspline.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of inline.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\interpolation\inline.c, ..\..\rng\inline.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of fdjac.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\multifit\fdjac.c, ..\..\multiroots\fdjac.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of bsimp.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\bsimp.c, ..\..\ode-initval\bsimp.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of control.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\control.c, ..\..\ode-initval\control.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of cscal.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\cscal.c, ..\..\ode-initval\cscal.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of cstd.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\cstd.c, ..\..\ode-initval\cstd.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of evolve.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\evolve.c, ..\..\ode-initval\evolve.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of rk2.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\rk2.c, ..\..\ode-initval\rk2.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of rk2imp.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\rk2imp.c, ..\..\ode-initval\rk2imp.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of rk4.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\rk4.c, ..\..\ode-initval\rk4.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of rk4imp.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\rk4imp.c, ..\..\ode-initval\rk4imp.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of rk8pd.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\rk8pd.c, ..\..\ode-initval\rk8pd.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of rkck.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\rkck.c, ..\..\ode-initval\rkck.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of rkf45.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\rkf45.c, ..\..\ode-initval\rkf45.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of step.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\step.c, ..\..\ode-initval\step.c.
+  blas.c
+  block.c
+  file.c
+  init.c
+  bspline.c
+  greville.c
+  beta.c
+  betainv.c
+  cauchy.c
+  cauchyinv.c
+  chisq.c
+  chisqinv.c
+  exponential.c
+  exponentialinv.c
+  exppow.c
+  fdist.c
+  fdistinv.c
+  flat.c
+  flatinv.c
+  gamma.c
+  Generating Code...
+  Compiling...
+  gammainv.c
+  gauss.c
+  gaussinv.c
+  gumbel1.c
+  gumbel1inv.c
+  gumbel2.c
+  gumbel2inv.c
+  hypergeometric.c
+  laplace.c
+  laplaceinv.c
+  logistic.c
+  logisticinv.c
+  lognormal.c
+  lognormalinv.c
+  pareto.c
+  paretoinv.c
+  rayleigh.c
+  rayleighinv.c
+  tdist.c
+  tdistinv.c
+  Generating Code...
+  Compiling...
+  weibull.c
+  weibullinv.c
+  deriv.c
+  eval.c
+  integ.c
+  combination.c
+  math.c
+  dht.c
+  diff.c
+  herm.c
+  hermv.c
+  jacobi.c
+  sort.c
+  symm.c
+  symmv.c
+  error.c
+  message.c
+  stream.c
+  strerror.c
+  dft.c
+  Generating Code...
+  Compiling...
+  fft.c
+  linear.c
+  add.c
+  add2d.c
+  calloc_range.c
+  calloc_range2d.c
+  copy.c
+  copy2d.c
+  file2d.c
+  get.c
+  get2d.c
+  init2d.c
+  maxval.c
+  maxval2d.c
+  oper.c
+  oper2d.c
+  params.c
+  params2d.c
+  pdf.c
+  pdf2d.c
+  Generating Code...
+  Compiling...
+  reset.c
+  reset2d.c
+  stat.c
+  stat2d.c
+  env.c
+  fp-win.c
+  make_rep.c
+  print.c
+  read.c
+  qag.c
+  qagp.c
+  qags.c
+  qawc.c
+  qawf.c
+  qawo.c
+  qaws.c
+  qcheb.c
+  qk.c
+  qk15.c
+  qk21.c
+  Generating Code...
+  Compiling...
+  qk31.c
+  qk41.c
+  qk51.c
+  qk61.c
+  qmomo.c
+  qmomof.c
+  qng.c
+  workspace.c
+  accel.c
+  akima.c
+  bicubic.c
+  bilinear.c
+  cspline.c
+  inline.c
+  interp.c
+  interp2d.c
+  poly.c
+  spline.c
+  spline2d.c
+  steffen.c
+  Generating Code...
+  Compiling...
+  balance.c
+  bidiag.c
+  cholesky.c
+  hermtd.c
+  hh.c
+  householder.c
+  householdercomplex.c
+  lq.c
+  lu.c
+  luc.c
+  multiply.c
+  ptlq.c
+  qr.c
+  qrpt.c
+  svd.c
+  symmtd.c
+  tridiag.c
+  getset.c
+  matrix.c
+  prop.c
+  Generating Code...
+  Compiling...
+  rowcol.c
+  submatrix.c
+  swap.c
+  view.c
+  bracketing.c
+  brent.c
+  convergence.c
+  fsolver.c
+  golden.c
+  miser.c
+  plain.c
+  vegas.c
+  covar.c
+  fdfridge.c
+  fdfsolver.c
+  fdjac.c
+  gradient.c
+  lmder.c
+  lmiterate.c
+  lmmisc.c
+  Generating Code...
+  Compiling...
+  lmniel.c
+  lmpar.c
+  lmset.c
+  lmutil.c
+  multilinear.c
+  multireg.c
+  multirobust.c
+  multiwlinear.c
+  qrsolv.c
+  robust_wfun.c
+  work.c
+  multilarge.c
+  normal.c
+  tsqr.c
+  conjugate_fr.c
+  conjugate_pr.c
+  fdfminimizer.c
+  fminimizer.c
+  simplex.c
+  steepest_descent.c
+  Generating Code...
+  Compiling...
+  vector_bfgs.c
+  broyden.c
+  dnewton.c
+  fdjac.c
+  gnewton.c
+  hybrid.c
+  hybridj.c
+  newton.c
+  multiset.c
+  ntuple.c
+  bsimp.c
+  control.c
+  cscal.c
+  cstd.c
+  driver.c
+  evolve.c
+  modnewton1.c
+  msadams.c
+  msbdf.c
+  rk1imp.c
+  Generating Code...
+  Compiling...
+  rk2.c
+  rk2imp.c
+  rk4.c
+  rk4imp.c
+  rk8pd.c
+  rkck.c
+  rkf45.c
+  rksubs.c
+  step.c
+  bsimp.c
+  control.c
+  cscal.c
+  cstd.c
+  evolve.c
+  gear1.c
+  gear2.c
+  rk2.c
+  rk2imp.c
+  rk2simp.c
+  rk4.c
+  Generating Code...
+  Compiling...
+  rk4imp.c
+  rk8pd.c
+  rkck.c
+  rkf45.c
+  step.c
+  canonical.c
+  permutation.c
+  permute.c
+  dd.c
+  solve_cubic.c
+  solve_quadratic.c
+  zsolve.c
+  zsolve_cubic.c
+  zsolve_init.c
+  zsolve_quadratic.c
+  niederreiter-2.c
+  qrng.c
+  sobol.c
+  bernoulli.c
+  bigauss.c
+  Generating Code...
+  Compiling...
+  binomial.c
+  binomial_tpe.c
+  dirichlet.c
+  discrete.c
+  erlang.c
+  gausstail.c
+  gausszig.c
+  geometric.c
+  gumbel.c
+  landau.c
+  levy.c
+  logarithmic.c
+  multinomial.c
+  nbinomial.c
+  pascal.c
+  poisson.c
+  shuffle.c
+  sphere.c
+  borosh13.c
+  cmrg.c
+  Generating Code...
+  Compiling...
+  coveyou.c
+  default.c
+  fishman18.c
+  fishman20.c
+  fishman2x.c
+  gfsr4.c
+  inline.c
+  knuthran.c
+  knuthran2.c
+  knuthran2002.c
+  lecuyer21.c
+  minstd.c
+  mrg.c
+  mt.c
+  r250.c
+  ran0.c
+  ran1.c
+  ran2.c
+  ran3.c
+  rand.c
+  Generating Code...
+  Compiling...
+  rand48.c
+  random.c
+  randu.c
+  ranf.c
+  ranlux.c
+  ranlxd.c
+  ranlxs.c
+  ranmar.c
+  rng.c
+  schrage.c
+  slatec.c
+  taus.c
+  taus113.c
+  transputer.c
+  tt.c
+  types.c
+  uni.c
+  uni32.c
+  vax.c
+  waterman14.c
+  Generating Code...
+  Compiling...
+  zuf.c
+  bisection.c
+  falsepos.c
+  secant.c
+  steffenson.c
+  rquantile.c
+  rstat.c
+  siman.c
+  sortind.c
+  sortvec.c
+  sortvecind.c
+  subset.c
+  subsetind.c
+  spdgemm.c
+  spdgemv.c
+  airy.c
+  airy_der.c
+  airy_zero.c
+  atanint.c
+  bessel.c
+  Generating Code...
+  Compiling...
+  bessel_amp_phase.c
+  bessel_i.c
+  bessel_I0.c
+  bessel_I1.c
+  bessel_In.c
+  bessel_Inu.c
+  bessel_j.c
+  bessel_J0.c
+  bessel_J1.c
+  bessel_Jn.c
+  bessel_Jnu.c
+  bessel_k.c
+  bessel_K0.c
+  bessel_K1.c
+  bessel_Kn.c
+  bessel_Knu.c
+  bessel_olver.c
+  bessel_sequence.c
+  bessel_temme.c
+  bessel_y.c
+  Generating Code...
+  Compiling...
+  bessel_Y0.c
+  bessel_Y1.c
+  bessel_Yn.c
+  bessel_Ynu.c
+  bessel_zero.c
+  beta_inc.c
+  clausen.c
+  coulomb.c
+  coulomb_bound.c
+  coupling.c
+  dawson.c
+  debye.c
+  dilog.c
+  elementary.c
+  ellint.c
+  elljac.c
+  erfc.c
+  exp.c
+  expint.c
+  expint3.c
+  Generating Code...
+  Compiling...
+  fermi_dirac.c
+  gamma_inc.c
+  gegenbauer.c
+  hyperg.c
+  hyperg_0F1.c
+  hyperg_1F1.c
+  hyperg_2F0.c
+  hyperg_2F1.c
+  hyperg_U.c
+  laguerre.c
+  lambert.c
+  legendre_con.c
+  legendre_H3d.c
+  legendre_poly.c
+  legendre_Qn.c
+  log.c
+  poch.c
+  psi.c
+  result.c
+  shint.c
+  Generating Code...
+  Compiling...
+  sinint.c
+  synchrotron.c
+  transport.c
+  trig.c
+  zeta.c
+  gmres.c
+  itersolve.c
+  avl.c
+  spcompress.c
+  spcopy.c
+  spgetset.c
+  spmatrix.c
+  spoper.c
+  spprop.c
+  spswap.c
+  absdev.c
+  covariance.c
+  kurtosis.c
+  lag1.c
+  mean.c
+  Generating Code...
+  Compiling...
+  median.c
+  p_variance.c
+  quantiles.c
+  skew.c
+  ttest.c
+  variance.c
+  wabsdev.c
+  wkurtosis.c
+  wmean.c
+  wskew.c
+  wvariance.c
+  levin_u.c
+  levin_utrunc.c
+  work_u.c
+  work_utrunc.c
+  coerce.c
+  expm1.c
+  fcmp.c
+  fdiv.c
+  hypot.c
+  Generating Code...
+  Compiling...
+  infnan.c
+  invhyp.c
+  ldfrexp.c
+  log1p.c
+  pow_int.c
+  prec.c
+  results.c
+  placeholder.c
+  reim.c
+  subvector.c
+  vector.c
+  bspline.c
+  daubechies.c
+  dwt.c
+  haar.c
+  wavelet.c
+  Generating Code...
+  binomial.c
+  geometric.c
+  nbinomial.c
+  pascal.c
+  poisson.c
+  init.c
+  file.c
+  init.c
+  deriv.c
+  file.c
+  init.c
+  linear.c
+  exponential.c
+  copy.c
+  file.c
+  init.c
+  minmax.c
+  oper.c
+  convergence.c
+  fsolver.c
+  convergence.c
+  diff.c
+  convergence.c
+  fdfsolver.c
+  fsolver.c
+  file.c
+  init.c
+  eval.c
+  beta.c
+  cauchy.c
+  chisq.c
+  exponential.c
+  exppow.c
+  fdist.c
+  flat.c
+  gamma.c
+  gauss.c
+  hyperg.c
+  laplace.c
+  logistic.c
+  lognormal.c
+  pareto.c
+  rayleigh.c
+  tdist.c
+  weibull.c
+  file.c
+  brent.c
+  convergence.c
+  fdfsolver.c
+  fsolver.c
+  newton.c
+  sort.c
+  beta.c
+  gamma.c
+  pow_int.c
+  minmax.c
+  minmax.c
+  copy.c
+  file.c
+  init.c
+  minmax.c
+  oper.c
+  prop.c
+  swap.c
+  view.c
+x64\Debug-DLL\fdjac.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug-DLL\bsimp.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug-DLL\control.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug-DLL\cscal.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug-DLL\cstd.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug-DLL\evolve.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug-DLL\rk2.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug-DLL\rk2imp.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug-DLL\rk4.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug-DLL\rk4imp.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug-DLL\rk8pd.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug-DLL\rkck.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug-DLL\rkf45.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug-DLL\step.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug-DLL\inline.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug-DLL\bspline.obj : warning LNK4042: object specified more than once; extras ignored
+avl.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+modnewton1.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  libgsl.vcxproj -> H:\Video.Lectures.Quant.Hub\Varadhan.Stroock.LargeDeviations\generating.functions\LD-SPATT-master\gsl-2.1-src\VC14\x64\Debug-DLL\libgsl.lib

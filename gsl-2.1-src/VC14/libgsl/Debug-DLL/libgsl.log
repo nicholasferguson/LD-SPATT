@@ -1,0 +1,931 @@
+﻿  Comparing files .\..\config.h.msvc and .\..\..\CONFIG.H
+  FC: no differences encountered
+  
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of bspline.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\bspline\bspline.c, ..\..\wavelet\bspline.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of inline.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\interpolation\inline.c, ..\..\rng\inline.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of fdjac.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\multifit\fdjac.c, ..\..\multiroots\fdjac.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of bsimp.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\bsimp.c, ..\..\ode-initval\bsimp.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of control.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\control.c, ..\..\ode-initval\control.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of cscal.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\cscal.c, ..\..\ode-initval\cscal.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of cstd.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\cstd.c, ..\..\ode-initval\cstd.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of evolve.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\evolve.c, ..\..\ode-initval\evolve.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of rk2.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\rk2.c, ..\..\ode-initval\rk2.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of rk2imp.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\rk2imp.c, ..\..\ode-initval\rk2imp.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of rk4.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\rk4.c, ..\..\ode-initval\rk4.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of rk4imp.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\rk4imp.c, ..\..\ode-initval\rk4imp.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of rk8pd.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\rk8pd.c, ..\..\ode-initval\rk8pd.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of rkck.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\rkck.c, ..\..\ode-initval\rkck.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of rkf45.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\rkf45.c, ..\..\ode-initval\rkf45.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of step.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ode-initval2\step.c, ..\..\ode-initval\step.c.
+  wavelet.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\wavelet\wavelet.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  haar.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\wavelet\haar.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  dwt.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\wavelet\dwt.c(24): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  daubechies.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\wavelet\daubechies.c(30): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bspline.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\wavelet\bspline.c(33): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  vector.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\vector\vector.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  subvector.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\vector\subvector.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  reim.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\vector\reim.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  placeholder.c
+  results.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\test\results.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  prec.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\sys\prec.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  pow_int.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\sys\pow_int.c(19): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  log1p.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\sys\log1p.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  ldfrexp.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\sys\ldfrexp.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  invhyp.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\sys\invhyp.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  infnan.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\sys\infnan.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  hypot.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\sys\hypot.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  fdiv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\sys\fdiv.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  fcmp.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\sys\fcmp.c(25): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  expm1.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\sys\expm1.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  coerce.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\sys\coerce.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  work_utrunc.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\sum\work_utrunc.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  work_u.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\sum\work_u.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  levin_utrunc.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\sum\levin_utrunc.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  levin_u.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\sum\levin_u.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  wvariance.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\statistics\wvariance.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  wskew.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\statistics\wskew.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  wmean.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\statistics\wmean.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  wkurtosis.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\statistics\wkurtosis.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  wabsdev.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\statistics\wabsdev.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  variance.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\statistics\variance.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  ttest.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\statistics\ttest.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  skew.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\statistics\skew.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  quantiles.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\statistics\quantiles.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  p_variance.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\statistics\p_variance.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  median.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\statistics\median.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  mean.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\statistics\mean.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  lag1.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\statistics\lag1.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  kurtosis.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\statistics\kurtosis.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  covariance.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\statistics\covariance.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  absdev.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\statistics\absdev.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  spswap.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\spmatrix\spswap.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  spprop.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\spmatrix\spprop.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  spoper.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\spmatrix\spoper.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  spmatrix.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\spmatrix\spmatrix.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  spgetset.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\spmatrix\spgetset.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  spcopy.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\spmatrix\spcopy.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  spcompress.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\spmatrix\spcompress.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  avl.c
+  itersolve.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\splinalg\itersolve.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  gmres.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\splinalg\gmres.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  zeta.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\zeta.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  trig.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\trig.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  transport.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\transport.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  synchrotron.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\synchrotron.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  sinint.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\sinint.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  shint.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\shint.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  result.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\result.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  psi.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\psi.c(23): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  poch.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\poch.c(23): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  log.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\log.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  legendre_Qn.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\legendre_qn.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  legendre_poly.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\legendre_poly.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  legendre_H3d.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\legendre_h3d.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  legendre_con.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\legendre_con.c(23): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  lambert.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\lambert.c(23): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  laguerre.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\laguerre.c(23): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  hyperg_U.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\hyperg_u.c(23): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  hyperg_2F1.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\hyperg_2f1.c(23): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  hyperg_2F0.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\hyperg_2f0.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  hyperg_1F1.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\hyperg_1f1.c(23): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  hyperg_0F1.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\hyperg_0f1.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  hyperg.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\hyperg.c(25): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  gegenbauer.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\gegenbauer.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  gamma_inc.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\gamma_inc.c(23): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  fermi_dirac.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\fermi_dirac.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  expint3.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\expint3.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  expint.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\expint.c(23): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  exp.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\exp.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  erfc.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\erfc.c(29): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  elljac.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\elljac.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  ellint.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\ellint.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  elementary.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\elementary.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  dilog.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\dilog.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  debye.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\debye.c(23): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  dawson.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\dawson.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  coupling.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\coupling.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  coulomb_bound.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\coulomb_bound.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  coulomb.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\coulomb.c(33): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  clausen.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\clausen.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  beta_inc.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\beta_inc.c(23): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_zero.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_zero.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_Ynu.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_ynu.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_Yn.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_yn.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_Y1.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_y1.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_Y0.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_y0.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_y.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_y.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_temme.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_temme.c(26): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_sequence.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_sequence.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_olver.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_olver.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  bessel_Knu.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_knu.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_Kn.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_kn.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_K1.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_k1.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_K0.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_k0.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_k.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_k.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_Jnu.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_jnu.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_Jn.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_jn.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_J1.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_j1.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_J0.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_j0.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_j.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_j.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_Inu.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_inu.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_In.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_in.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_I1.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_i1.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_I0.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_i0.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_i.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_i.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel_amp_phase.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel_amp_phase.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bessel.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\bessel.c(23): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  atanint.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\atanint.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  airy_zero.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\airy_zero.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  airy_der.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\airy_der.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  airy.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\specfunc\airy.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  spdgemv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\spblas\spdgemv.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  spdgemm.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\spblas\spdgemm.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  subsetind.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\sort\subsetind.c(16): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  subset.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\sort\subset.c(16): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  sortvecind.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\sort\sortvecind.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  sortvec.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\sort\sortvec.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  sortind.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\sort\sortind.c(19): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  siman.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\siman\siman.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rstat.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rstat\rstat.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rquantile.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rstat\rquantile.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  steffenson.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\roots\steffenson.c(35): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  secant.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\roots\secant.c(34): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  falsepos.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\roots\falsepos.c(34): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bisection.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\roots\bisection.c(23): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  zuf.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\zuf.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  waterman14.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\waterman14.c(34): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  vax.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\vax.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  uni32.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\uni32.c(100): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  uni.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\uni.c(100): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  types.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\types.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  tt.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\tt.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  transputer.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\transputer.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  taus113.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\taus113.c(58): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  taus.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\taus.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  slatec.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\slatec.c(139): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  schrage.c
+  rng.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\rng.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  ranmar.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\ranmar.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  ranlxs.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\ranlxs.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  ranlxd.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\ranlxd.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  ranlux.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\ranlux.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  ranf.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\ranf.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  randu.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\randu.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  random.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\random.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rand48.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\rand48.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rand.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\rand.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  ran3.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\ran3.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  ran2.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\ran2.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  ran1.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\ran1.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  ran0.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\ran0.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  r250.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\r250.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  mt.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\mt.c(54): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  mrg.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\mrg.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  minstd.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\minstd.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  lecuyer21.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\lecuyer21.c(32): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  knuthran2002.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\knuthran2002.c(33): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  knuthran2.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\knuthran2.c(32): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  knuthran.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\knuthran.c(34): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  inline.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\inline.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  gfsr4.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\gfsr4.c(51): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  fishman2x.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\fishman2x.c(34): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  fishman20.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\fishman20.c(34): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  fishman18.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\fishman18.c(34): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  default.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\default.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  coveyou.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\coveyou.c(33): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  cmrg.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\cmrg.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  borosh13.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\rng\borosh13.c(34): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  sphere.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\randist\sphere.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  shuffle.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\randist\shuffle.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  poisson.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\randist\poisson.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  pascal.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\randist\pascal.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  nbinomial.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\randist\nbinomial.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  multinomial.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\randist\multinomial.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  logarithmic.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\randist\logarithmic.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  levy.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\randist\levy.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  landau.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\randist\landau.c(34): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  gumbel.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\randist\gumbel.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  geometric.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\randist\geometric.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  gausszig.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\randist\gausszig.c(47): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  gausstail.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\randist\gausstail.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  erlang.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\randist\erlang.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  discrete.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\randist\discrete.c(143): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  dirichlet.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\randist\dirichlet.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  binomial_tpe.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\randist\binomial_tpe.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  binomial.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\randist\binomial.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bigauss.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\randist\bigauss.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bernoulli.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\randist\bernoulli.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  sobol.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\qrng\sobol.c(8): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  qrng.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\qrng\qrng.c(3): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  niederreiter-2.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\qrng\niederreiter-2.c(7): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  zsolve_quadratic.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\poly\zsolve_quadratic.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  zsolve_init.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\poly\zsolve_init.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  zsolve_cubic.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\poly\zsolve_cubic.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  zsolve.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\poly\zsolve.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  solve_quadratic.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\poly\solve_quadratic.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  solve_cubic.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\poly\solve_cubic.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  dd.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\poly\dd.c(23): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  permute.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\permutation\permute.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  permutation.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\permutation\permutation.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  canonical.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\permutation\canonical.c(25): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  step.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval\step.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rkf45.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval\rkf45.c(27): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rkck.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval\rkck.c(27): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rk8pd.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval\rk8pd.c(29): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rk4imp.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval\rk4imp.c(31): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rk4.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval\rk4.c(32): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rk2simp.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval\rk2simp.c(30): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rk2imp.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval\rk2imp.c(31): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rk2.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval\rk2.c(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  gear2.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval\gear2.c(24): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  gear1.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval\gear1.c(31): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  evolve.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval\evolve.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  cstd.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval\cstd.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  cscal.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval\cscal.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  control.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval\control.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bsimp.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval\bsimp.c(27): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  step.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval2\step.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rksubs.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval2\rksubs.c(20): fatal error C1083: Cannot open include file: 'gsl/gsl_errno.h': No such file or directory
+  rkf45.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval2\rkf45.c(27): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rkck.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval2\rkck.c(27): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rk8pd.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval2\rk8pd.c(29): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rk4imp.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval2\rk4imp.c(33): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rk4.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval2\rk4.c(32): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rk2imp.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval2\rk2imp.c(32): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rk2.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval2\rk2.c(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rk1imp.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval2\rk1imp.c(27): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  msbdf.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval2\msbdf.c(46): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  msadams.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval2\msadams.c(44): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  modnewton1.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval2\modnewton1.c(35): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  evolve.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval2\evolve.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  driver.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval2\driver.c(25): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  cstd.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval2\cstd.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  cscal.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval2\cscal.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  control.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval2\control.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bsimp.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ode-initval2\bsimp.c(27): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  ntuple.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ntuple\ntuple.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  multiset.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multiset\multiset.c(23): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  newton.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multiroots\newton.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  hybridj.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multiroots\hybridj.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  hybrid.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multiroots\hybrid.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  gnewton.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multiroots\gnewton.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  fdjac.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multiroots\fdjac.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  dnewton.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multiroots\dnewton.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  broyden.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multiroots\broyden.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  vector_bfgs.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multimin\vector_bfgs.c(24): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  steepest_descent.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multimin\steepest_descent.c(24): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  simplex.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multimin\simplex.c(35): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  fminimizer.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multimin\fminimizer.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  fdfminimizer.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multimin\fdfminimizer.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  conjugate_pr.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multimin\conjugate_pr.c(24): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  conjugate_fr.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multimin\conjugate_fr.c(24): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  tsqr.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multilarge\tsqr.c(51): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  normal.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multilarge\normal.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  multilarge.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multilarge\multilarge.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  work.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multifit\work.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  robust_wfun.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multifit\robust_wfun.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  qrsolv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multifit\qrsolv.c(41): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  multiwlinear.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multifit\multiwlinear.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  multirobust.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multifit\multirobust.c(33): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  multireg.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multifit\multireg.c(31): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  multilinear.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multifit\multilinear.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  lmutil.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multifit\lmutil.c(3): fatal error C1083: Cannot open include file: 'gsl/gsl_math.h': No such file or directory
+  lmset.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multifit\lmset.c(2): fatal error C1083: Cannot open include file: 'gsl/gsl_math.h': No such file or directory
+  lmpar.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multifit\lmpar.c(20): fatal error C1083: Cannot open include file: 'gsl/gsl_permute_vector_double.h': No such file or directory
+  lmniel.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multifit\lmniel.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  lmmisc.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multifit\lmmisc.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  lmiterate.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multifit\lmiterate.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  lmder.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multifit\lmder.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  gradient.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multifit\gradient.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  fdjac.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multifit\fdjac.c(24): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  fdfsolver.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multifit\fdfsolver.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  fdfridge.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multifit\fdfridge.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  covar.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\multifit\covar.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  vegas.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\monte\vegas.c(55): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  plain.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\monte\plain.c(24): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  miser.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\monte\miser.c(32): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  golden.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\min\golden.c(23): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  fsolver.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\min\fsolver.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  convergence.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\min\convergence.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  brent.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\min\brent.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bracketing.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\min\bracketing.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  view.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\matrix\view.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  swap.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\matrix\swap.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  submatrix.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\matrix\submatrix.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rowcol.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\matrix\rowcol.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  prop.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\matrix\prop.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  matrix.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\matrix\matrix.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  getset.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\matrix\getset.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  tridiag.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\linalg\tridiag.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  symmtd.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\linalg\symmtd.c(54): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  svd.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\linalg\svd.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  qrpt.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\linalg\qrpt.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  qr.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\linalg\qr.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  ptlq.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\linalg\ptlq.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  multiply.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\linalg\multiply.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  luc.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\linalg\luc.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  lu.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\linalg\lu.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  lq.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\linalg\lq.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  householdercomplex.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\linalg\householdercomplex.c(38): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  householder.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\linalg\householder.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  hh.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\linalg\hh.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  hermtd.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\linalg\hermtd.c(50): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  cholesky.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\linalg\cholesky.c(34): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bidiag.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\linalg\bidiag.c(65): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  balance.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\linalg\balance.c(27): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  steffen.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\interpolation\steffen.c(35): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  spline2d.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\interpolation\spline2d.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  spline.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\interpolation\spline.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  poly.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\interpolation\poly.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  interp2d.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\interpolation\interp2d.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  interp.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\interpolation\interp.c(23): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  inline.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\interpolation\inline.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  cspline.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\interpolation\cspline.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bilinear.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\interpolation\bilinear.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bicubic.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\interpolation\bicubic.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  akima.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\interpolation\akima.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  accel.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\interpolation\accel.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  workspace.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\integration\workspace.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  qng.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\integration\qng.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  qmomof.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\integration\qmomof.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  qmomo.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\integration\qmomo.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  qk61.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\integration\qk61.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  qk51.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\integration\qk51.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  qk41.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\integration\qk41.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  qk31.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\integration\qk31.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  qk21.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\integration\qk21.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  qk15.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\integration\qk15.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  qk.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\integration\qk.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  qcheb.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\integration\qcheb.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  qaws.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\integration\qaws.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  qawo.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\integration\qawo.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  qawf.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\integration\qawf.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  qawc.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\integration\qawc.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  qags.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\integration\qags.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  qagp.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\integration\qagp.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  qag.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\integration\qag.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  read.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ieee-utils\read.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  print.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ieee-utils\print.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  make_rep.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ieee-utils\make_rep.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  fp-win.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ieee-utils\fp-win.c(3): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  env.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\ieee-utils\env.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  stat2d.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\stat2d.c(34): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  stat.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\stat.c(31): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  reset2d.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\reset2d.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  reset.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\reset.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  pdf2d.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\pdf2d.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  pdf.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\pdf.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  params2d.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\params2d.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  params.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\params.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  oper2d.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\oper2d.c(35): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  oper.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\oper.c(35): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  maxval2d.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\maxval2d.c(33): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  maxval.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\maxval.c(33): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  init2d.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\init2d.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  get2d.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\get2d.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  get.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\get.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  file2d.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\file2d.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  copy2d.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\copy2d.c(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  copy.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\copy.c(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  calloc_range2d.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\calloc_range2d.c(29): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  calloc_range.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\calloc_range.c(29): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  add2d.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\add2d.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  add.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\histogram\add.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  linear.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\fit\linear.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  fft.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\fft\fft.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  dft.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\fft\dft.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  strerror.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\err\strerror.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  stream.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\err\stream.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  message.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\err\message.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  error.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\err\error.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  symmv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\eigen\symmv.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  symm.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\eigen\symm.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  sort.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\eigen\sort.c(22): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  jacobi.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\eigen\jacobi.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  hermv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\eigen\hermv.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  herm.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\eigen\herm.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  diff.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\diff\diff.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  dht.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\dht\dht.c(23): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  math.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\complex\math.c(44): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  combination.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\combination\combination.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  integ.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cheb\integ.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  eval.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cheb\eval.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  deriv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cheb\deriv.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  weibullinv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\weibullinv.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  weibull.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\weibull.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  tdistinv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\tdistinv.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  tdist.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\tdist.c(39): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rayleighinv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\rayleighinv.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  rayleigh.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\rayleigh.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  paretoinv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\paretoinv.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  pareto.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\pareto.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  lognormalinv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\lognormalinv.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  lognormal.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\lognormal.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  logisticinv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\logisticinv.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  logistic.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\logistic.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  laplaceinv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\laplaceinv.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  laplace.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\laplace.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  hypergeometric.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\hypergeometric.c(43): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  gumbel2inv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\gumbel2inv.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  gumbel2.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\gumbel2.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  gumbel1inv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\gumbel1inv.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  gumbel1.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\gumbel1.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  gaussinv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\gaussinv.c(29): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  gauss.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\gauss.c(44): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  gammainv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\gammainv.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  gamma.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\gamma.c(24): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  flatinv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\flatinv.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  flat.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\flat.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  fdistinv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\fdistinv.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  fdist.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\fdist.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  exppow.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\exppow.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  exponentialinv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\exponentialinv.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  exponential.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\exponential.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  chisqinv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\chisqinv.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  chisq.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\chisq.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  cauchyinv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\cauchyinv.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  cauchy.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\cauchy.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  betainv.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\betainv.c(38): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  beta.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\cdf\beta.c(20): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  greville.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\bspline\greville.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  bspline.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\bspline\bspline.c(21): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  init.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\block\init.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  file.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\block\file.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  block.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\block\block.c(1): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  blas.c
+h:\video.lectures.quant.hub\varadhan.stroock.largedeviations\generating.functions\ld-spatt-master\gsl-2.1-src\blas\blas.c(24): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
